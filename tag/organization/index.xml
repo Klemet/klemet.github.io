@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>organization | Clément Hardy</title>
+    <link>https://klemet.github.io/tag/organization/</link>
+      <atom:link href="https://klemet.github.io/tag/organization/index.xml" rel="self" type="application/rss+xml" />
+    <description>organization</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Clément Hardy</copyright><lastBuildDate>Sun, 01 Aug 2021 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://klemet.github.io/media/icon_hu93a42bfcf8f1c81b76f58cb79681382c_22880_512x512_fill_lanczos_center_3.png</url>
+      <title>organization</title>
+      <link>https://klemet.github.io/tag/organization/</link>
+    </image>
+    
+    <item>
+      <title>Organization and open-source workshop</title>
+      <link>https://klemet.github.io/talk/organization-and-open-source-workshop/</link>
+      <pubDate>Sun, 01 Aug 2021 13:00:00 +0000</pubDate>
+      <guid>https://klemet.github.io/talk/organization-and-open-source-workshop/</guid>
+      <description>&lt;p&gt;Our modern lives put us in constant contact with information. So much information that it can be very difficult to structure it, but also to find it.&lt;/p&gt;
+&lt;p&gt;Different softwares exist today to lighten the work that we ask our brains to manage this information. However, these programs are often owned by large corporations that are unclear about whether they have access to the stored data, and whether they share it with other companies or intelligence agencies. They also have methods or workings that are sometimes very rigid, and that may not be suitable for you.&lt;/p&gt;
+&lt;p&gt;To leanr more, see &lt;a href=&#34;https://klemet.github.io/Workshop-Organization-EN/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://klemet.github.io/Workshop-Organization-EN/&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
