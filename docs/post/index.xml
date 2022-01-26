@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Clément Hardy</title>
+    <link>https://klemet.github.io/post/</link>
+      <atom:link href="https://klemet.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Clément Hardy</copyright><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://klemet.github.io/media/icon_hu93a42bfcf8f1c81b76f58cb79681382c_22880_512x512_fill_lanczos_center_3.png</url>
+      <title>Posts</title>
+      <link>https://klemet.github.io/post/</link>
+    </image>
+    
+    <item>
+      <title>3 types of software you should start using for your research</title>
+      <link>https://klemet.github.io/post/3_softwares_to_use/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://klemet.github.io/post/3_softwares_to_use/</guid>
+      <description>&lt;p&gt;As human knowledge accumulates and our daily lives become ever more busy, it&amp;rsquo;s not wonder that we start feeling overwelmed as researchers.&lt;/p&gt;
+&lt;p&gt;Our human brain might be an amazing tool to discover and understand the world around us when compared to a cat&amp;rsquo;s or a dog&amp;rsquo;s equivalent, but it is still both biased and limited.&lt;/p&gt;
+&lt;p&gt;Luckily, there exist many different tools that can help us to compensate for these issues. And the wonderful news is that they are &lt;em&gt;&lt;strong&gt;free&lt;/strong&gt;&lt;/em&gt;, that they do not contain advertising, and that they do not sell information about yourself or your data.&lt;/p&gt;
+&lt;p&gt;Here is a list of 3 open-source software that changed my life as a PhD student and early researcher, by allowing me to &lt;strong&gt;organize my references, my notes and my files&lt;/strong&gt; like never before.&lt;/p&gt;
+&lt;h1 id=&#34;joplin&#34;&gt;Joplin&lt;/h1&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./Joplin_logo.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Joplin is a note-taking application with many features.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;It is an open-source and completely free software that allows you to create notes in the &amp;ldquo;Markdown&amp;rdquo; writing language, and to organize them in &amp;ldquo;notebooks&amp;rdquo;, and associate them with tags. &lt;strong&gt;It is an excellent alternative to software such as Evernote or Microsoft One Note&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;In particular, Joplin allows you to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Gather all your written or graphic information in one place&lt;/strong&gt;: your class notes, your thoughts, your projects, your recipes, your shopping lists, your to-do lists, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Find all this information very quickly&lt;/strong&gt; (in a few seconds) thanks to the search tools.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use it on any computer&lt;/strong&gt; (Windows, Mac, Linux) and &lt;strong&gt;on any phone&lt;/strong&gt; (android, IOs).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Synchronize your data on the cloud you choose&lt;/strong&gt; : Nextcloud (see below), Google Drive, One Drive, etc. So you can have all your data written everywhere, all the time, on any media.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Have a fully customizable interface&lt;/strong&gt; that allows you to focus totally on what you are writing, so that you don&amp;rsquo;t waste time and attention.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Export your notes in many ways&lt;/strong&gt;, with a format (markdown) that can be read anywhere and at any time.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automatically manage the images and files you insert in your notes&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automatically edit your notes&lt;/strong&gt; (so you can go back at any time if you made a mistake).&lt;/li&gt;
+&lt;li&gt;And much more.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Joplin is an amazing software to try your hand at note-taking tools, and maybe even at the &lt;a href=&#34;https://en.wikipedia.org/wiki/Zettelkasten&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zettelkasten&lt;/a&gt; method !&lt;/p&gt;
+&lt;p&gt;Other wondful alternatives include &lt;a href=&#34;https://www.zettlr.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zettlr&lt;/a&gt;, or &lt;a href=&#34;https://obsidian.md/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Obsidian&lt;/a&gt;. However, I think that Joplin is the best place to start if you&amp;rsquo;re not used to such apps.&lt;/p&gt;
+&lt;p&gt;To download Joplin, take a look at &lt;a href=&#34;https://joplinapp.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;its website&lt;/a&gt; !&lt;/p&gt;
+&lt;h1 id=&#34;zotero&#34;&gt;Zotero&lt;/h1&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./zotero_logo.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Zotero is a bibliography management software.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Having complete and rigorous bibliography information is necessary in academic documents (thesis, dissertation, article). It can also be very important for blog or website posts, videos, scripts, and many others. It can additionally be very useful for managing personal resources. The bibliography information of a document is called &amp;lsquo;meta-data&amp;rsquo;, i.e. data &lt;em&gt;about the document&lt;/em&gt;, but &lt;em&gt;outside the document&lt;/em&gt; (its title, its publication date, its author(s), etc.).&lt;/p&gt;
+&lt;p&gt;Zotero allows you to :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Easily save all the metadata associated with a document&lt;/strong&gt; (title, authors, place of publication, date, URL, etc.).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Associate notes or tags&lt;/strong&gt; to each reference or document.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sort these references by category&lt;/strong&gt;s, or by their characteristics to find them easily.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Download associated PDF files&lt;/strong&gt; when possible.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Export bibliography files&lt;/strong&gt; that contain all the details of the references, so that they can be inserted into a document.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Insert and manage the bibliography of a document&lt;/strong&gt; in Microsoft Word, Libreoffice or Google Doc using its plugins.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Zotero have a wonderful community that devellops incredible plugins such as Better BibTex, Zotfile or MDnotes. All of these will allow you to connect your Zotero database to other software such as Joplin, Zettlr and Obsidian, or to export the annotations that you make in your &lt;code&gt;.pdf&lt;/code&gt; files.&lt;/p&gt;
+&lt;p&gt;To download Zotero, you can go on &lt;a href=&#34;https://www.zotero.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;its website&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;nextcloud&#34;&gt;Nextcloud&lt;/h1&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./Nextcloud_logo.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Nextcloud is a cloud software like Google Drive, allowing to host files, but also containing multiple very useful applications. However, unlike Google Drive, it is open-source and free&lt;/strong&gt;. You only need to host it on a server yourself, or choose an host (free, or subscription-based).&lt;/p&gt;
+&lt;p&gt;Nextcloud allows you to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Have an online file storage space that is totally yours&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Have access to lots of different applications all open-source&lt;/strong&gt; that allow you to manage to-do lists, &lt;em&gt;kanban boards&lt;/em&gt;, calendars, contacts, notes, recipes, maps, track your phone&amp;rsquo;s location, collaborate on documents, and much more.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Nextcloud is an incredible way to boost your productivity by organizing simply across devices, and I cannot recommand it enough. It is also perfect to host your Joplin notes in the cloud, or your Zettlr or Obsidian files. You can even save the &lt;code&gt;.pdf&lt;/code&gt; files of your zotero database with it ! Best of all, most of Nextcloud&amp;rsquo;s apps can synchronize very easily with your phone. Tasks on your phone ? Check. Calendar ? Check. Kanban boards ? Check. Recipes ? Check. The list goes on.&lt;/p&gt;
+&lt;p&gt;To find an host or download nextcloud and host it yourself, you should look at &lt;a href=&#34;https://nextcloud.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the project&amp;rsquo;s website&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;remember-to-contribute-&#34;&gt;Remember to contribute !&lt;/h1&gt;
+&lt;p&gt;All of these incredible programs are free, but they all represent hours and hours of hard work, along with the work of creating documentation, beautiful websites, and easy-to-use installer for people like you or me.&lt;/p&gt;
+&lt;p&gt;Using open-source software can be describe as a particular way of life, as these are often much more respectful of your privacy than software made by companies such as Microsoft, Google, Facebook, or even Macintosh. But the price to pay is often on the shoulder of the devellopers : they are the ones investing the work needed, and will often have nothing for themselves if the venture fails, with no add revenues or revenues from selling your data.&lt;/p&gt;
+&lt;p&gt;Hence, &lt;strong&gt;if you start using one of these programs, remember to take the time to make a donation or a contribution to the project that they represent&lt;/strong&gt;. If the software pleases you, the team behind it have certainly earned it.&lt;/p&gt;
+&lt;h1 id=&#34;want-to-know-more-&#34;&gt;Want to know more ?&lt;/h1&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./Logo_atelier_organisation_EN.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;If you want to learn more about these software, how to use them and their functionalities, you should take a look at the &lt;a href=&#34;https://klemet.github.io/Workshop-Organization-EN/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;free online workshop&lt;/a&gt; that I&amp;rsquo;ve created to help you discover them.&lt;/p&gt;
+&lt;p&gt;With just an afternoon before you, you&amp;rsquo;ll learn the most important thing about them; but you&amp;rsquo;ll also learn some great methods to use them properly, and even in tandem together !&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

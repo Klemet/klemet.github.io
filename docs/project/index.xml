@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Clément Hardy</title>
+    <link>https://klemet.github.io/project/</link>
+      <atom:link href="https://klemet.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Clément Hardy</copyright><lastBuildDate>Fri, 27 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://klemet.github.io/media/icon_hu93a42bfcf8f1c81b76f58cb79681382c_22880_512x512_fill_lanczos_center_3.png</url>
+      <title>Projects</title>
+      <link>https://klemet.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>The Open-source and Organisation workshop</title>
+      <link>https://klemet.github.io/project/open_source_org_workshop/</link>
+      <pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://klemet.github.io/project/open_source_org_workshop/</guid>
+      <description>&lt;h2 id=&#34;-description&#34;&gt;📑 Description&lt;/h2&gt;
+&lt;p&gt;A free workshop to help people discover open-source software, in order to better organize themselves and the information they come in contact with on a daily basis. You can do it by yourself in an afternoon&amp;rsquo;s time by doing the guided exercises and documentation at &lt;a href=&#34;https://klemet.github.io/Workshop-Organization-EN/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://klemet.github.io/Workshop-Organization-EN/&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Forest Roads Simulation module for LANDIS-II</title>
+      <link>https://klemet.github.io/project/frs_module_landis/</link>
+      <pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://klemet.github.io/project/frs_module_landis/</guid>
+      <description>&lt;h2 id=&#34;-description&#34;&gt;📑 Description&lt;/h2&gt;
+&lt;p&gt;The FRS (Forest Roads Simulation) module is an extension for the &lt;a href=&#34;http://www.landis-ii.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LANDIS-II&lt;/a&gt; model.&lt;/p&gt;
+&lt;p&gt;It allows any user to dynamically simulate the evolution of the forest road network in the simulated landscape of LANDIS-II. It does so by creating roads to cells that are harvested by a harvest module (such as &lt;a href=&#34;http://www.landis-ii.org/extensions/base-harvest&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Base Harvest&lt;/a&gt; or &lt;a href=&#34;http://www.landis-ii.org/extensions/biomass-harvest&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Biomass Harvest&lt;/a&gt;), while reducing the costs of construction of roads as much as possible.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/Klemet/LANDIS-II-Forest-Roads-Simulation-module&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more on the GitHub page of the project&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Forest Road Network Plugin for QGIS</title>
+      <link>https://klemet.github.io/project/forest_roads_plugin_qgis/</link>
+      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://klemet.github.io/project/forest_roads_plugin_qgis/</guid>
+      <description>&lt;h2 id=&#34;-description&#34;&gt;📑 Description&lt;/h2&gt;
+&lt;p&gt;This plugin contains several algorithms destined to help the user create an optimized forest road network, based on the topography of the landscape.&lt;/p&gt;
+&lt;p&gt;The user must first create or input a &amp;ldquo;cost map&amp;rdquo;, which describes the cost of construction of a road on a pixel. Then, different algorithms allows the user to create the road network, then simulate the fluxes of wood going through it (transport via timber trucks), then decide the width and type of each road segment according to this flux.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/Klemet/ForestRoadNetworkPluginForQGIS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more on the GitHub page of the project&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
