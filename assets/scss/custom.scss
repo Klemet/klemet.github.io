@@ -1,5 +1,4 @@
-// CSS for falling leaves effect
-
+// CSS for falling leaves effect for the citation widget
 .leaves{
     position:relative ;
     left:-50%;
@@ -102,4 +101,23 @@
 .set3{
     transform:scale(0.8) rotateX(180deg);
     filter:blur(4px);
+}
+// Disables the citation widget on mobile
+@media not screen {
+    #citation
+    {
+    display: none !important;
+    height:0px;
+    margins: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    #citation
+    {
+    display: none !important;
+    height:0px;
+    margins: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    }
 }
