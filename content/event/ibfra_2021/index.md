@@ -1,5 +1,5 @@
 ---
-title: Long-term impacts of uneven-aged development on the quantity and fragmentation of old-growth forest in a landscape (IBFRA)
+title: 🏆 Long-term impacts of uneven-aged development on the quantity and fragmentation of old-growth forest in a landscape (IBFRA)
 
 event: Annual conference of the International Boreal Forest Research Association (IBFRA)
 event_url: https://sites.google.com/alaska.edu/ibfra2021/home
@@ -27,6 +27,8 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
+
+> **🏆 This presentation won the "Best presentation" award for this annual conference of the IBFRA**.
 
 Uneven-aged management is currently seen by many forest ecologists as an extensive management approach when compared to more traditional even-aged methods, offering interesting compromises between timber production and other important ecosystem services. But uncertainties remain concerning its impacts on longer time periods and broader spatial scales, where harvesting activities and forest roads construction can impact the composition and fragmentation of the landscape.
 

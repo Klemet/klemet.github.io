@@ -1,7 +1,7 @@
 ---
 title: A new LANDIS-II module to study the effects of roads on forest landscapes
 
-event: 13th annual symposium of the Centre d’Étude de la Forêt (CEF)
+event: 13th annual symposium of the Centre for Forest Research (CEF)
 event_url: http://www.cef-cfr.ca/index.php?n=Colloque.Colloque2019
 
 location: Université du Québec à Chicoutimi, Chicoutimi, Québec
