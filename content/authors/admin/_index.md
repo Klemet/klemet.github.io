@@ -50,7 +50,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:clem.hardy@outlook.fr'
+  link: 'mailto:clem.hardy@pm.me'
 - icon: github
   icon_pack: fab
   link: https://github.com/Klemet

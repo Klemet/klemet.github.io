@@ -5,12 +5,28 @@
     <link>https://klemet.github.io/publication/</link>
       <atom:link href="https://klemet.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Clément Hardy</copyright><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Clément Hardy</copyright><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://klemet.github.io/media/icon_hu93a42bfcf8f1c81b76f58cb79681382c_22880_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://klemet.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Is Veganism the best way to reduce carbon emissions?</title>
+      <link>https://klemet.github.io/publication/hardy-veganism-best-way-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://klemet.github.io/publication/hardy-veganism-best-way-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>L&#39;aménagement forestier inéquien : Solution ou mirage d&#39;une foresterie durable ?</title>
+      <link>https://klemet.github.io/publication/hardy-amenagement-forestier-inequien-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://klemet.github.io/publication/hardy-amenagement-forestier-inequien-2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Daily Activity Patterns and Co-Occurrence of Duikers Revealed by an Intensive Camera Trap Survey across Central African Rainforests</title>
