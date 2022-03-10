@@ -1,0 +1,1394 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Clément Hardy" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Why the difference can be subtle, and why we should be careful about distinguishing the two." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://klemet.github.io/post/hypothesis_and_predictions/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#4caf50" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.fb1535f6d15c2709cd9873b6f909b913.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu93a42bfcf8f1c81b76f58cb79681382c_22880_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu93a42bfcf8f1c81b76f58cb79681382c_22880_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://klemet.github.io/post/hypothesis_and_predictions/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="Clément Hardy" />
+  <meta property="og:url" content="https://klemet.github.io/post/hypothesis_and_predictions/" />
+  <meta property="og:title" content="Hypothesis and predictions | Clément Hardy" />
+  <meta property="og:description" content="Why the difference can be subtle, and why we should be careful about distinguishing the two." /><meta property="og:image" content="https://klemet.github.io/post/hypothesis_and_predictions/featured.jpg" />
+    <meta property="twitter:image" content="https://klemet.github.io/post/hypothesis_and_predictions/featured.jpg" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2022-03-10T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2022-03-10T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://klemet.github.io/post/hypothesis_and_predictions/"
+  },
+  "headline": "Hypothesis and predictions",
+  
+  "image": [
+    "https://klemet.github.io/post/hypothesis_and_predictions/featured.jpg"
+  ],
+  
+  "datePublished": "2022-03-10T00:00:00Z",
+  "dateModified": "2022-03-10T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Clément Hardy"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Clément Hardy",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://klemet.github.io/media/icon_hu93a42bfcf8f1c81b76f58cb79681382c_22880_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Why the difference can be subtle, and why we should be careful about distinguishing the two."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Hypothesis and predictions | Clément Hardy</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="1dc79319c3d4e1a765204a7c7f8b7511" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.8f76bdc9e086322ed5147724ebba3d06.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Clément Hardy</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Clément Hardy</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Tools</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>Hypothesis and predictions</h1>
+
+  
+  <p class="page-subtitle">Why the difference can be subtle, and why we should be careful about distinguishing the two.</p>
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      Clément Hardy</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Mar 10, 2022
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    10 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header container featured-image-wrapper mt-4 mb-4" style="max-width: 910px; max-height: 607px;">
+  <div style="position: relative">
+    <img src="/post/hypothesis_and_predictions/featured_hu399b16a151ba5a32f529d4f6c9a90ed9_56184_1200x2500_fit_q75_h2_lanczos.webp" width="910" height="607" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>&ldquo;That&rsquo;s a prediction, not an hypothesis&rdquo; read the comment of one of my co-author. He was right : what I did present as one of the hypotheses of my research paper was, in fact, a prediction. But then, I started to notice that a majority of the articles I read seemed to do the same mistake. A couple of days ago, I read the following in a recent article in ecology (which I&rsquo;m paraphrasing) :</p>
+<blockquote>
+<p>We hypothesize that climate warming and the increase in CO2 concentration will increase forest productivity and carbon stocks in our modeled landscape.</p>
+</blockquote>
+<p>Which is indeed a prediction disguised as an hypothesis. It&rsquo;s pretty hard to see, and pretty easy to miss; but apparently, the consequences for science can be more dire than I imagined at first, when the problem was revealed to me.</p>
+<h2 id="the-epidemic-of-confusion">The epidemic of confusion</h2>
+<p>The prevalence of this confusion is not a new phenomenon. <a href="https://www.jstor.org/stable/4451093" target="_blank" rel="noopener">In 2001, Guy R. McPherson wrote an article</a> pointing to the fact that a certain amount of scientists did not know how to make the difference, which lead to this kind of error in research papers.</p>
+<blockquote>
+<p>Most of these discussions begin with a question I pose to PhD. students at their oral comprehensive examination: &ldquo;What is a hypothesis?&rdquo; When I first began asking this question more than 10 years ago, nearly all students invoked Popper&rsquo;s falsificationist view (e.g. Popper 1981), then proceeded to confuse hypothesis with prediction.</p>
+</blockquote>
+<blockquote>
+<p>Another personal anecdote reinforces the view that scientists (including those outside my academic institution) may confuse &ldquo;hypothesis&rdquo; and &ldquo;prediction.&rdquo; In a recent manuscript, my co-author and I substituted the inappropriate term &ldquo;hypothesis&rdquo; for the appropriate term &ldquo;prediction&rdquo; throughout the manuscript (a total of seven times). The paper was submitted to a major international journal in 1998 and was subjected to a high level of scrutiny by three reviewers (presumably scientists who are reasonably well known), the associate editor, and the editor-in-chief (the latter two individuals are internationally renowned scientists). None of the five individuals in the review process commented on the inappropriate use of &ldquo;hypothesis,&rdquo; and the manuscript was published in the journal in 1999 (corrections were noted by the co-authors on the page proofs, and incorporated in the published manuscript).</p>
+</blockquote>
+<p><a href="https://www.jstor.org/stable/4451093" target="_blank" rel="noopener">McPherson, 2001</a></p>
+<p>I do not believe that this problem is due to the fact that PhD students and researchers are not smart enough to grasp the difference; nor that it comes from a real desire to disguise one into the other. It could be due to the fact that the difference is not taught enough - or not well enough - in the university, or even before that. In fact, McPherson&rsquo;s article was published in <em>The American Biology Teacher</em>, and was first and foremost directed at science educators. If our teachers don&rsquo;t know the difference well enough, it&rsquo;s understandable that most student won&rsquo;t know it past their diplomas.</p>
+<p>But again, I do not believe that any blame is to be given to science educators : it&rsquo;s simply that the difference between hypothesis and predictions can be very subtle, and that it is easy to be influenced by the work or words of others that confuse the two. Hence, we end up in a kind of <a href="http://datanuggets.org/wp-content/uploads/2014/01/Strode_NABT-2011-Hypothesis-Presentation.pdf" target="_blank" rel="noopener">epidemic of confusion</a>.</p>
+<h2 id="the-real-difference-between-hypotheses-and-predictions">The real difference between hypotheses and predictions</h2>
+<h3 id="predictions">Predictions</h3>
+<p>When we try to explain the difference between an hypothesis and a prediction, that&rsquo;s where we start to see where the problem lies : it&rsquo;s not always that easy to distinguish the two. From my understanding, there is no single method to be assured of what we&rsquo;re doing, but only a set of clues. I&rsquo;ll try to summarize them here.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-a-magic-8-ball-from-frankieleonhttpswwwflickrcomphotosarmydre20086521326205-on-flick">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="./magic_8_ball.jpg" alt="A magic 8 ball from [frankieleon](https://www.flickr.com/photos/armydre2008/6521326205) on Flick." loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      A magic 8 ball from <a href="https://www.flickr.com/photos/armydre2008/6521326205">frankieleon</a> on Flick.
+    </figcaption></figure>
+</p>
+<p>In short, we can say that a prediction is an affirmative statement about what will happen in certain conditions : they are all about patterns that can be observed. Most of all, as <a href="https://www.jstor.org/stable/4451093" target="_blank" rel="noopener">McPherson (2001)</a> points out, a <strong>prediction</strong> does not need the scientific method to be validated or invalidated (in contrast to an hypothesis). In fact, we test predictions in our daily life without using any science at all. Even fortune tellers do it. Here are a couple of examples :</p>
+<ul>
+<li>The salt is in this section of the supermarket</li>
+<li>The pastas are ready</li>
+<li>It will rain tomorrow</li>
+</ul>
+<p>All of these are predictions, and only require observation - not experimentation - to be validated or not.</p>
+<p>Where it gets trickier is when we see predictions that concern things that are not in our daily lives, but that seems to touch the realm of &ldquo;science&rdquo;. When they do, we might think that we are looking at an hypothesis. See the following statements :</p>
+<ul>
+<li>There are no living organisms on Mars</li>
+<li>Climate change will reduce the resilience of forests</li>
+<li>An increase in protein X will lead to disease Y</li>
+</ul>
+<p>I don&rsquo;t know about you; but I&rsquo;m personally are much more inclined to identify those as hypotheses. But nothing has really changed were compared to the three statement regarding &ldquo;everyday life&rdquo; : we&rsquo;re still making affirmations about something that will happen in certain conditions, which is a prediction.</p>
+<p>However, there&rsquo;s an important catch that <a href="https://www.jstor.org/stable/4451093" target="_blank" rel="noopener">McPherson (2001)</a> explains : that while testing predictions does not require the scientific method, it is in itself part of the scientific method, and part of what we call <em>science</em> overall. This is because sometimes, we have to just test a prediction to advance; wherever it is in order to validate or invalidate an hypothesis (that&rsquo;s what is required to do it, after all), or because we need more information to formulate an hypothesis, or because the answer is really needed in the current context. <strong>Predictions are not &ldquo;bad science&rdquo;</strong>; they are a tool used by science, and necessary to science. The problem lies in confusing them with hypotheses.</p>
+<h3 id="hypotheses">Hypotheses</h3>
+<p>A good way to identify an hypothesis is to see if the statement it contains can be an answer to a <em><strong>why</strong></em>. This is because hypotheses should be propositions related to how a system function, which can then be tested by using an experiment. Of course, any hypothesis should be falsifiable.</p>
+<p>Let&rsquo;s take a look at a simple example : we have a flashlight that doesn&rsquo;t work.</p>
+<ul>
+<li>Asking &ldquo;<em>Why doesn&rsquo;t the flashlight work ?</em>&rdquo; is a good example of a research question.
+<ul>
+<li>But if we say &ldquo;<em>Is the flashlight not working because the batteries are empty</em>&rdquo;, we&rsquo;re already making an implied hypothesis, since we&rsquo;re giving an explanation for why the system (the flashlight) works as it does. One thing at a time !</li>
+</ul>
+</li>
+<li>Saying &ldquo;<em>The flashlight doesn&rsquo;t work because the batteries are empty</em>&rdquo; is a hypothesis : it answers the <em>why</em>, and can be falsified.
+<ul>
+<li>Another hypothesis can be &ldquo;<em>The flashlight doesn&rsquo;t work because the light bulb is broken</em>&rdquo;.</li>
+</ul>
+</li>
+<li>Now that we have the hypothesis, we can propose an experiment to test it : we can change the batteries, and see if the flashlight will work.</li>
+<li>Finally, we can make a prediction that will come true if the hypothesis is validated : &ldquo;<em>The flashlight will light up when we change the batteries</em>&rdquo;.</li>
+</ul>
+<p>Another important thing, according to <a href="https://www.jstor.org/stable/4451093" target="_blank" rel="noopener">McPherson (2001)</a>, is to distinguish the hypothesis (a statement about how the system functions) with the <em>statistical</em> hypothesis (which is really a prediction : a statement about the statistical pattern that we should observe <em>if</em> the hypothesis is true).</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-the-light-bulb-is-a-good-example-to-distinguish-the-prediction-and-hypothesis--saying-that-changing-it-will-make-the-light-work-is-a-prediction-saying-that-the-light-doesnt-work-because-the-light-bulb-needs-to-be-changed-is-a-hypothesis">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="./lightbulb.jpg" alt="The light bulb is a good example to distinguish the prediction and hypothesis : saying that changing it will make the light work is a prediction. Saying that the light doesn&#39;t work because the light bulb needs to be changed is a hypothesis." loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      The light bulb is a good example to distinguish the prediction and hypothesis : saying that changing it will make the light work is a prediction. Saying that the light doesn&rsquo;t work because the light bulb needs to be changed is a hypothesis.
+    </figcaption></figure>
+</p>
+<p>So if we come back to the first example that I gave of a prediction hiding as an hypothesis, the real hypothesis would be :</p>
+<blockquote>
+<p>We hypothesize that climate warming and CO2 concentration affects forest productivity and carbon stocks at the landscape scale.</p>
+</blockquote>
+<p>One way to test this hypothesis is to make a modeling experiment : <em><strong>if</strong></em> we model a forest landscape with increasing climate warming and C02 concentration, <em><strong>then</strong></em> we should see the productivity and carbon stocks increase.</p>
+<p>But the article is recent, and the idea that climate warming will increase forest productivity in some forests in some ways is already well known; it&rsquo;s safe to say that this is not the hypothesis that the authors wanted to test. But because it is not formulated in the right way, it&rsquo;s hard to know what kind of information we will get in the end. And that&rsquo;s one of the risks associated with making this confusion.</p>
+<p>As a summary, a good way to identify an hypothesis (from my own point of view) is to see if it fits in the following sentence :</p>
+<blockquote>
+<p><em><strong>If</strong></em> <code>experiment</code>, <em><strong>then</strong></em> <code>prediction</code> <em><strong>because</strong></em> <code>hypothesis</code>.</p>
+</blockquote>
+<h2 id="why-is-it-so-important-to-distinguish-the-two-">Why is it so important to distinguish the two ?</h2>
+<p>Confusing hypotheses and predictions can be more problematic that we might think.</p>
+<p>A first problem is that by doing so, we can <strong>give wrong impression about what the scientific method is to the public</strong>, and especially to students and young people. If we present the act of making a prediction and testing it with an observation as science, then many things that we do in our daily lives is <em>science</em>. Checking if the salt is in this sections of the supermarket is a good example : it&rsquo;s as much science as saying &ldquo;putting batteries into the flashlight will make it work&rdquo;. It is <em>part</em> of the scientific method, but it&rsquo;s not enough. Making a prediction and validating it doesn&rsquo;t offer a lot of information in itself; especially if we didn&rsquo;t take the time to design them so as to answer the real hypothesis as best we can.</p>
+<p>A second problem is that when researchers do this confusion, they show that they do not completely grasp the scientific method. <strong>This might be a contributing factor to the many problems that science is facing today</strong> : the bias of publication towards studies that &ldquo;validate hypotheses&rdquo; or predictions; the fact that confounding factors are not taken into account while designing the experiment or observation made in the study; the lack of replicability ; the difficulty of synthesizing many studies that concern a particular topic; the misinterpretation of statistical analysis; and so on.</p>
+<p>A third problem is that it prevents us from <strong>recognizing research that is done without testing an hypothesis</strong>. As <a href="https://www.jstor.org/stable/4451093" target="_blank" rel="noopener">McPherson (2001)</a> states, most research in biology describes patterns rather than testing the mechanisms underlying of the patterns : and that&rsquo;s OK. Not all research articles need to have an hypothesis, as a big part of formulating hypotheses and putting the scientific method to work is investigating patterns. For example, one would not test the hypothesis &ldquo;tobacco causes lung cancer&rdquo; without a previous investigation of the prevalence of lung cancers in tobacco smokers. Such an investigation would be part of <em>science</em> as a whole, but would not be testing any hypothesis : only observing patterns, or testing predictions. Maybe we should appreciate that better, and understand that <em>science</em> is not just using the scientific method : <em>science</em> is a also a big adventure of communication, funding, coordination, techniques and methods, relations, journals, and even policy.</p>
+<p>I believe that&rsquo;s why it&rsquo;s important to distinguish hypothesis from predictions; because it takes us away, as researchers, from the desire to fit the routine of &ldquo;introduction, hypothesis, methods, results&hellip;&rdquo;, and embrace the fact that <em>science</em> is a more complex affair that require adaptability and innovation. But more simply, it&rsquo;s important to come back to the roots of our profession, and take the time to understand the basic concepts that we might sometimes forget and brush away. If you took the time to read this article - and if I made a good job writing it -, then we&rsquo;re hopefully already part of the solution.</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/epistemiology/">epistemiology</a>
+  
+  <a class="badge badge-light" href="/tag/hypothesis/">hypothesis</a>
+  
+  <a class="badge badge-light" href="/tag/prediction/">prediction</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://klemet.github.io/post/hypothesis_and_predictions/&amp;text=Hypothesis%20and%20predictions" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://klemet.github.io/post/hypothesis_and_predictions/&amp;t=Hypothesis%20and%20predictions" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Hypothesis%20and%20predictions&amp;body=https://klemet.github.io/post/hypothesis_and_predictions/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://klemet.github.io/post/hypothesis_and_predictions/&amp;title=Hypothesis%20and%20predictions" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Hypothesis%20and%20predictions%20https://klemet.github.io/post/hypothesis_and_predictions/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://klemet.github.io/post/hypothesis_and_predictions/&amp;title=Hypothesis%20and%20predictions" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://klemet.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu76b9e87e671b45eb7edba9f04e688298_141278_270x270_fill_q75_lanczos_center.jpg" alt="Clément Hardy"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://klemet.github.io/">Clément Hardy</a></h5>
+      <h6 class="card-subtitle">PhD student in forest ecology</h6>
+      <p class="card-text">Clément is a PhD student working on forest ecology, forest management, spatially explicit modelling and functional connectivity. He&rsquo;s also interested in history, ethics, productivity tools, video-games and photography.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:clem.hardy@pm.me" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/Klemet" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/clement-hardy-ecology/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://flickr.com/photos/135911843@N03/" target="_blank" rel="noopener">
+        <i class="fab fa-flickr"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    © 2022 Clément Hardy
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.1cb9e2fc8399acee94eab837265b73bf.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.247fd8f54253895301106e3006f53f38.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

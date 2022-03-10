@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>epistemiology | Clément Hardy</title>
+    <link>https://klemet.github.io/tag/epistemiology/</link>
+      <atom:link href="https://klemet.github.io/tag/epistemiology/index.xml" rel="self" type="application/rss+xml" />
+    <description>epistemiology</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Clément Hardy</copyright><lastBuildDate>Thu, 10 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://klemet.github.io/media/icon_hu93a42bfcf8f1c81b76f58cb79681382c_22880_512x512_fill_lanczos_center_3.png</url>
+      <title>epistemiology</title>
+      <link>https://klemet.github.io/tag/epistemiology/</link>
+    </image>
+    
+    <item>
+      <title>Hypothesis and predictions</title>
+      <link>https://klemet.github.io/post/hypothesis_and_predictions/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://klemet.github.io/post/hypothesis_and_predictions/</guid>
+      <description>&lt;p&gt;&amp;ldquo;That&amp;rsquo;s a prediction, not an hypothesis&amp;rdquo; read the comment of one of my co-author. He was right : what I did present as one of the hypotheses of my research paper was, in fact, a prediction. But then, I started to notice that a majority of the articles I read seemed to do the same mistake. A couple of days ago, I read the following in a recent article in ecology (which I&amp;rsquo;m paraphrasing) :&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We hypothesize that climate warming and the increase in CO2 concentration will increase forest productivity and carbon stocks in our modeled landscape.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Which is indeed a prediction disguised as an hypothesis. It&amp;rsquo;s pretty hard to see, and pretty easy to miss; but apparently, the consequences for science can be more dire than I imagined at first, when the problem was revealed to me.&lt;/p&gt;
+&lt;h2 id=&#34;the-epidemic-of-confusion&#34;&gt;The epidemic of confusion&lt;/h2&gt;
+&lt;p&gt;The prevalence of this confusion is not a new phenomenon. &lt;a href=&#34;https://www.jstor.org/stable/4451093&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;In 2001, Guy R. McPherson wrote an article&lt;/a&gt; pointing to the fact that a certain amount of scientists did not know how to make the difference, which lead to this kind of error in research papers.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Most of these discussions begin with a question I pose to PhD. students at their oral comprehensive examination: &amp;ldquo;What is a hypothesis?&amp;rdquo; When I first began asking this question more than 10 years ago, nearly all students invoked Popper&amp;rsquo;s falsificationist view (e.g. Popper 1981), then proceeded to confuse hypothesis with prediction.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Another personal anecdote reinforces the view that scientists (including those outside my academic institution) may confuse &amp;ldquo;hypothesis&amp;rdquo; and &amp;ldquo;prediction.&amp;rdquo; In a recent manuscript, my co-author and I substituted the inappropriate term &amp;ldquo;hypothesis&amp;rdquo; for the appropriate term &amp;ldquo;prediction&amp;rdquo; throughout the manuscript (a total of seven times). The paper was submitted to a major international journal in 1998 and was subjected to a high level of scrutiny by three reviewers (presumably scientists who are reasonably well known), the associate editor, and the editor-in-chief (the latter two individuals are internationally renowned scientists). None of the five individuals in the review process commented on the inappropriate use of &amp;ldquo;hypothesis,&amp;rdquo; and the manuscript was published in the journal in 1999 (corrections were noted by the co-authors on the page proofs, and incorporated in the published manuscript).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.jstor.org/stable/4451093&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;McPherson, 2001&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I do not believe that this problem is due to the fact that PhD students and researchers are not smart enough to grasp the difference; nor that it comes from a real desire to disguise one into the other. It could be due to the fact that the difference is not taught enough - or not well enough - in the university, or even before that. In fact, McPherson&amp;rsquo;s article was published in &lt;em&gt;The American Biology Teacher&lt;/em&gt;, and was first and foremost directed at science educators. If our teachers don&amp;rsquo;t know the difference well enough, it&amp;rsquo;s understandable that most student won&amp;rsquo;t know it past their diplomas.&lt;/p&gt;
+&lt;p&gt;But again, I do not believe that any blame is to be given to science educators : it&amp;rsquo;s simply that the difference between hypothesis and predictions can be very subtle, and that it is easy to be influenced by the work or words of others that confuse the two. Hence, we end up in a kind of &lt;a href=&#34;http://datanuggets.org/wp-content/uploads/2014/01/Strode_NABT-2011-Hypothesis-Presentation.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;epidemic of confusion&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;the-real-difference-between-hypotheses-and-predictions&#34;&gt;The real difference between hypotheses and predictions&lt;/h2&gt;
+&lt;h3 id=&#34;predictions&#34;&gt;Predictions&lt;/h3&gt;
+&lt;p&gt;When we try to explain the difference between an hypothesis and a prediction, that&amp;rsquo;s where we start to see where the problem lies : it&amp;rsquo;s not always that easy to distinguish the two. From my understanding, there is no single method to be assured of what we&amp;rsquo;re doing, but only a set of clues. I&amp;rsquo;ll try to summarize them here.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-a-magic-8-ball-from-frankieleonhttpswwwflickrcomphotosarmydre20086521326205-on-flick&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./magic_8_ball.jpg&#34; alt=&#34;A magic 8 ball from [frankieleon](https://www.flickr.com/photos/armydre2008/6521326205) on Flick.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      A magic 8 ball from &lt;a href=&#34;https://www.flickr.com/photos/armydre2008/6521326205&#34;&gt;frankieleon&lt;/a&gt; on Flick.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;In short, we can say that a prediction is an affirmative statement about what will happen in certain conditions : they are all about patterns that can be observed. Most of all, as &lt;a href=&#34;https://www.jstor.org/stable/4451093&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;McPherson (2001)&lt;/a&gt; points out, a &lt;strong&gt;prediction&lt;/strong&gt; does not need the scientific method to be validated or invalidated (in contrast to an hypothesis). In fact, we test predictions in our daily life without using any science at all. Even fortune tellers do it. Here are a couple of examples :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The salt is in this section of the supermarket&lt;/li&gt;
+&lt;li&gt;The pastas are ready&lt;/li&gt;
+&lt;li&gt;It will rain tomorrow&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All of these are predictions, and only require observation - not experimentation - to be validated or not.&lt;/p&gt;
+&lt;p&gt;Where it gets trickier is when we see predictions that concern things that are not in our daily lives, but that seems to touch the realm of &amp;ldquo;science&amp;rdquo;. When they do, we might think that we are looking at an hypothesis. See the following statements :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;There are no living organisms on Mars&lt;/li&gt;
+&lt;li&gt;Climate change will reduce the resilience of forests&lt;/li&gt;
+&lt;li&gt;An increase in protein X will lead to disease Y&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I don&amp;rsquo;t know about you; but I&amp;rsquo;m personally are much more inclined to identify those as hypotheses. But nothing has really changed were compared to the three statement regarding &amp;ldquo;everyday life&amp;rdquo; : we&amp;rsquo;re still making affirmations about something that will happen in certain conditions, which is a prediction.&lt;/p&gt;
+&lt;p&gt;However, there&amp;rsquo;s an important catch that &lt;a href=&#34;https://www.jstor.org/stable/4451093&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;McPherson (2001)&lt;/a&gt; explains : that while testing predictions does not require the scientific method, it is in itself part of the scientific method, and part of what we call &lt;em&gt;science&lt;/em&gt; overall. This is because sometimes, we have to just test a prediction to advance; wherever it is in order to validate or invalidate an hypothesis (that&amp;rsquo;s what is required to do it, after all), or because we need more information to formulate an hypothesis, or because the answer is really needed in the current context. &lt;strong&gt;Predictions are not &amp;ldquo;bad science&amp;rdquo;&lt;/strong&gt;; they are a tool used by science, and necessary to science. The problem lies in confusing them with hypotheses.&lt;/p&gt;
+&lt;h3 id=&#34;hypotheses&#34;&gt;Hypotheses&lt;/h3&gt;
+&lt;p&gt;A good way to identify an hypothesis is to see if the statement it contains can be an answer to a &lt;em&gt;&lt;strong&gt;why&lt;/strong&gt;&lt;/em&gt;. This is because hypotheses should be propositions related to how a system function, which can then be tested by using an experiment. Of course, any hypothesis should be falsifiable.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s take a look at a simple example : we have a flashlight that doesn&amp;rsquo;t work.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Asking &amp;ldquo;&lt;em&gt;Why doesn&amp;rsquo;t the flashlight work ?&lt;/em&gt;&amp;rdquo; is a good example of a research question.
+&lt;ul&gt;
+&lt;li&gt;But if we say &amp;ldquo;&lt;em&gt;Is the flashlight not working because the batteries are empty&lt;/em&gt;&amp;rdquo;, we&amp;rsquo;re already making an implied hypothesis, since we&amp;rsquo;re giving an explanation for why the system (the flashlight) works as it does. One thing at a time !&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Saying &amp;ldquo;&lt;em&gt;The flashlight doesn&amp;rsquo;t work because the batteries are empty&lt;/em&gt;&amp;rdquo; is a hypothesis : it answers the &lt;em&gt;why&lt;/em&gt;, and can be falsified.
+&lt;ul&gt;
+&lt;li&gt;Another hypothesis can be &amp;ldquo;&lt;em&gt;The flashlight doesn&amp;rsquo;t work because the light bulb is broken&lt;/em&gt;&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Now that we have the hypothesis, we can propose an experiment to test it : we can change the batteries, and see if the flashlight will work.&lt;/li&gt;
+&lt;li&gt;Finally, we can make a prediction that will come true if the hypothesis is validated : &amp;ldquo;&lt;em&gt;The flashlight will light up when we change the batteries&lt;/em&gt;&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Another important thing, according to &lt;a href=&#34;https://www.jstor.org/stable/4451093&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;McPherson (2001)&lt;/a&gt;, is to distinguish the hypothesis (a statement about how the system functions) with the &lt;em&gt;statistical&lt;/em&gt; hypothesis (which is really a prediction : a statement about the statistical pattern that we should observe &lt;em&gt;if&lt;/em&gt; the hypothesis is true).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-light-bulb-is-a-good-example-to-distinguish-the-prediction-and-hypothesis--saying-that-changing-it-will-make-the-light-work-is-a-prediction-saying-that-the-light-doesnt-work-because-the-light-bulb-needs-to-be-changed-is-a-hypothesis&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./lightbulb.jpg&#34; alt=&#34;The light bulb is a good example to distinguish the prediction and hypothesis : saying that changing it will make the light work is a prediction. Saying that the light doesn&amp;#39;t work because the light bulb needs to be changed is a hypothesis.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The light bulb is a good example to distinguish the prediction and hypothesis : saying that changing it will make the light work is a prediction. Saying that the light doesn&amp;rsquo;t work because the light bulb needs to be changed is a hypothesis.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;So if we come back to the first example that I gave of a prediction hiding as an hypothesis, the real hypothesis would be :&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We hypothesize that climate warming and CO2 concentration affects forest productivity and carbon stocks at the landscape scale.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;One way to test this hypothesis is to make a modeling experiment : &lt;em&gt;&lt;strong&gt;if&lt;/strong&gt;&lt;/em&gt; we model a forest landscape with increasing climate warming and C02 concentration, &lt;em&gt;&lt;strong&gt;then&lt;/strong&gt;&lt;/em&gt; we should see the productivity and carbon stocks increase.&lt;/p&gt;
+&lt;p&gt;But the article is recent, and the idea that climate warming will increase forest productivity in some forests in some ways is already well known; it&amp;rsquo;s safe to say that this is not the hypothesis that the authors wanted to test. But because it is not formulated in the right way, it&amp;rsquo;s hard to know what kind of information we will get in the end. And that&amp;rsquo;s one of the risks associated with making this confusion.&lt;/p&gt;
+&lt;p&gt;As a summary, a good way to identify an hypothesis (from my own point of view) is to see if it fits in the following sentence :&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;If&lt;/strong&gt;&lt;/em&gt; &lt;code&gt;experiment&lt;/code&gt;, &lt;em&gt;&lt;strong&gt;then&lt;/strong&gt;&lt;/em&gt; &lt;code&gt;prediction&lt;/code&gt; &lt;em&gt;&lt;strong&gt;because&lt;/strong&gt;&lt;/em&gt; &lt;code&gt;hypothesis&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;why-is-it-so-important-to-distinguish-the-two-&#34;&gt;Why is it so important to distinguish the two ?&lt;/h2&gt;
+&lt;p&gt;Confusing hypotheses and predictions can be more problematic that we might think.&lt;/p&gt;
+&lt;p&gt;A first problem is that by doing so, we can &lt;strong&gt;give wrong impression about what the scientific method is to the public&lt;/strong&gt;, and especially to students and young people. If we present the act of making a prediction and testing it with an observation as science, then many things that we do in our daily lives is &lt;em&gt;science&lt;/em&gt;. Checking if the salt is in this sections of the supermarket is a good example : it&amp;rsquo;s as much science as saying &amp;ldquo;putting batteries into the flashlight will make it work&amp;rdquo;. It is &lt;em&gt;part&lt;/em&gt; of the scientific method, but it&amp;rsquo;s not enough. Making a prediction and validating it doesn&amp;rsquo;t offer a lot of information in itself; especially if we didn&amp;rsquo;t take the time to design them so as to answer the real hypothesis as best we can.&lt;/p&gt;
+&lt;p&gt;A second problem is that when researchers do this confusion, they show that they do not completely grasp the scientific method. &lt;strong&gt;This might be a contributing factor to the many problems that science is facing today&lt;/strong&gt; : the bias of publication towards studies that &amp;ldquo;validate hypotheses&amp;rdquo; or predictions; the fact that confounding factors are not taken into account while designing the experiment or observation made in the study; the lack of replicability ; the difficulty of synthesizing many studies that concern a particular topic; the misinterpretation of statistical analysis; and so on.&lt;/p&gt;
+&lt;p&gt;A third problem is that it prevents us from &lt;strong&gt;recognizing research that is done without testing an hypothesis&lt;/strong&gt;. As &lt;a href=&#34;https://www.jstor.org/stable/4451093&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;McPherson (2001)&lt;/a&gt; states, most research in biology describes patterns rather than testing the mechanisms underlying of the patterns : and that&amp;rsquo;s OK. Not all research articles need to have an hypothesis, as a big part of formulating hypotheses and putting the scientific method to work is investigating patterns. For example, one would not test the hypothesis &amp;ldquo;tobacco causes lung cancer&amp;rdquo; without a previous investigation of the prevalence of lung cancers in tobacco smokers. Such an investigation would be part of &lt;em&gt;science&lt;/em&gt; as a whole, but would not be testing any hypothesis : only observing patterns, or testing predictions. Maybe we should appreciate that better, and understand that &lt;em&gt;science&lt;/em&gt; is not just using the scientific method : &lt;em&gt;science&lt;/em&gt; is a also a big adventure of communication, funding, coordination, techniques and methods, relations, journals, and even policy.&lt;/p&gt;
+&lt;p&gt;I believe that&amp;rsquo;s why it&amp;rsquo;s important to distinguish hypothesis from predictions; because it takes us away, as researchers, from the desire to fit the routine of &amp;ldquo;introduction, hypothesis, methods, results&amp;hellip;&amp;rdquo;, and embrace the fact that &lt;em&gt;science&lt;/em&gt; is a more complex affair that require adaptability and innovation. But more simply, it&amp;rsquo;s important to come back to the roots of our profession, and take the time to understand the basic concepts that we might sometimes forget and brush away. If you took the time to read this article - and if I made a good job writing it -, then we&amp;rsquo;re hopefully already part of the solution.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
