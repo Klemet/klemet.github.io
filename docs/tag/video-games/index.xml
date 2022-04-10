@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>productivity | Clément Hardy</title>
-    <link>https://klemet.github.io/tag/productivity/</link>
-      <atom:link href="https://klemet.github.io/tag/productivity/index.xml" rel="self" type="application/rss+xml" />
-    <description>productivity</description>
+    <title>video-games | Clément Hardy</title>
+    <link>https://klemet.github.io/tag/video-games/</link>
+      <atom:link href="https://klemet.github.io/tag/video-games/index.xml" rel="self" type="application/rss+xml" />
+    <description>video-games</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Clément Hardy</copyright><lastBuildDate>Tue, 05 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://klemet.github.io/media/icon_hu93a42bfcf8f1c81b76f58cb79681382c_22880_512x512_fill_lanczos_center_3.png</url>
-      <title>productivity</title>
-      <link>https://klemet.github.io/tag/productivity/</link>
+      <title>video-games</title>
+      <link>https://klemet.github.io/tag/video-games/</link>
     </image>
     
     <item>
@@ -89,17 +89,6 @@
 &lt;p&gt;And so, I came back to the knight. But I came back with a changed perspective. I wasn&amp;rsquo;t the guy who lost against him and wanted revenge anymore; I lost my frustration, and stopped acting with pettiness. I accepted that this difficult fight was part of the game. A wonderful game; a wonderful privilege to traverse beautiful hand-crafted lands to give myself time to learn and enjoy the world in a safe environment. I accepted that he would beat me many times again. And then, everything changed; Because now, I came to him as a student as much as an adversary.&lt;/p&gt;
 &lt;p&gt;I took the time to avoid his attacks. I took the time to look at them. And then, I saw it : one opening. Two openings. Two small moments that I could use to touch him with my sword without being touched in return. I tried to take advantage of one. I failed. Never mind; I tried again with a smile. And I succeeded. His life bar lowered a bit. But I died, and came back again. Yet each time, the probability of him touching me got lower. Each time, I got a bit better, until I got a lot better. I had reversed the trend. I had broken the cycle. And I didn&amp;rsquo;t do it through more anger, more stress or more pressure : but with more calm, more detachment, and more acceptance. I changed my position on the Yerkes-Dodson law towards an optimal spot of performance, and it showed.&lt;/p&gt;
 &lt;p&gt;I ended up winning pretty quickly. The knight fell on his knees, disappearing softly in a myriad of sparkles. One down. Thousands to go. The rest of my life, just as in Elden Ring, would be filled with though challenges, and maybe even enemies to face. But while life would impose these onto me, the choice of my state of mind would remain partially mine. I could increase my stress, put more burden of my shoulders, and thus make myself prone to breaking the day that I would inevitably fail one of my encounters with reality. Or I could choose to see everything as a lesson, everything as a gift, and thus give me wings to soar higher than my insecurities, staying flexible and adaptive. To remember this, I will keep walking towards the Elden Ring, with the Yerkes-Dodson law (or what I understand of it) as a precious reminder of this truth.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Organization and open-source workshop</title>
-      <link>https://klemet.github.io/talk/organization-and-open-source-workshop/</link>
-      <pubDate>Sun, 01 Aug 2021 13:00:00 +0000</pubDate>
-      <guid>https://klemet.github.io/talk/organization-and-open-source-workshop/</guid>
-      <description>&lt;p&gt;Our modern lives put us in constant contact with information. So much information that it can be very difficult to structure it, but also to find it.&lt;/p&gt;
-&lt;p&gt;Different softwares exist today to lighten the work that we ask our brains to manage this information. However, these programs are often owned by large corporations that are unclear about whether they have access to the stored data, and whether they share it with other companies or intelligence agencies. They also have methods or workings that are sometimes very rigid, and that may not be suitable for you.&lt;/p&gt;
-&lt;p&gt;To leanr more, see &lt;a href=&#34;https://klemet.github.io/Workshop-Organization-EN/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://klemet.github.io/Workshop-Organization-EN/&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

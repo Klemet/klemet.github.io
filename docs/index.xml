@@ -5,12 +5,92 @@
     <link>https://klemet.github.io/</link>
       <atom:link href="https://klemet.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Clément Hardy</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Clément Hardy</copyright><lastBuildDate>Wed, 30 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Clément Hardy</copyright><lastBuildDate>Tue, 05 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://klemet.github.io/media/icon_hu93a42bfcf8f1c81b76f58cb79681382c_22880_512x512_fill_lanczos_center_3.png</url>
       <title>Clément Hardy</title>
       <link>https://klemet.github.io/</link>
     </image>
+    
+    <item>
+      <title>Elden Ring and the Yerkes-Dodson law</title>
+      <link>https://klemet.github.io/post/elden_ring_and_yerkes_dodson_law/</link>
+      <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://klemet.github.io/post/elden_ring_and_yerkes_dodson_law/</guid>
+      <description>&lt;p&gt;Here I was, a lowly tarnished in search of the legendary Elden Ring. Against me was the strength and cunning of a whole fantasy world that wanted me dead, dead, and dead again. Every enemy, encounter and trap carefully planned and placed to crush me and my foolish ambitions by video-game designers half a world away. Armed with my sword, I launched myself at a huge armored knight towering before me - one of the many, many &amp;ldquo;bosses&amp;rdquo; of the game blocking my path to the Elden Ring. I had beaten many video-games before this one, and fought many knights taller than me a great number of times. I was confident that this time would not be different.&lt;/p&gt;
+&lt;p&gt;But the knight barely flinched at my blade, and retaliated before I could even finish my strike. Hurt, I rolled away, trying to escape his sword for one moment. With some distance between us, I quickly took out the magical flask that would heal me. But the knight knew better; and while I was drinking, he impaled me with his sword. Dead. But as my character had the strange curse of not being able to die, I tried again. And died again. And tried again. And died again. And again. And again. And again.&lt;/p&gt;
+&lt;p&gt;I put my controller on the table, frustrated at the game; but even more frustrated at me. Here I was, a boy living in one of the most comfortable places on earth, wasting my time in frustration at a video-game. Yet, my affection for games is not always unjustified : I love games because many of them taught me very valuable lessons. They also gave me calm and relaxation when I needed them, along with some great fun with my friends. The truth was that I just didn&amp;rsquo;t understood the lesson that Elden Ring had to teach me at this time; and what a lesson it was, indeed !&lt;/p&gt;
+&lt;h2 id=&#34;the-most-difficult-games&#34;&gt;The most difficult games&lt;/h2&gt;
+&lt;p&gt;Elden Ring is not any game. It has been a huge success since its release, with million of players enjoying its enormous and detailed world of decaying fantasy. An important part of its renown comes from its pedigree, as it&amp;rsquo;s the last creation of Fromsoft - a studio well known for its dark, difficult, but ultimately very rewarding games. In particular, the &lt;em&gt;Dark Souls&lt;/em&gt; series that preceded Elden Ring was celebrated and almost universally known among gamers. It was also known as some of the most difficult games ever made. But many would say that this difficulty aspect was really overplayed; that it was not that difficult, but that it simply asked the player to be cautious and engaged with its world.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/elden_ring_and_yerkes_dodson_law/elden_ring_gameplay_huc0a14e13cde720c778cad4e5faca594b_544651_33ff80c74ffff30b90e493d04572f12e.webp 400w,
+               /post/elden_ring_and_yerkes_dodson_law/elden_ring_gameplay_huc0a14e13cde720c778cad4e5faca594b_544651_b1b850bedccf7146dac1fb299d75dd64.webp 760w,
+               /post/elden_ring_and_yerkes_dodson_law/elden_ring_gameplay_huc0a14e13cde720c778cad4e5faca594b_544651_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://klemet.github.io/post/elden_ring_and_yerkes_dodson_law/elden_ring_gameplay_huc0a14e13cde720c778cad4e5faca594b_544651_33ff80c74ffff30b90e493d04572f12e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;506&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve never been a huge fan of the &lt;em&gt;Dark Souls&lt;/em&gt; series, as I always found it too frustrating. In my student life, I often played games to relax and unwind; not to be repeatedly killed by traps, rats, dogs, humans, monsters, statues, cliffs, and many others colorful things that &lt;em&gt;Dark Souls&lt;/em&gt; can offer. Still, I&amp;rsquo;ve always pondered the possibility that there was something in those games that I couldn&amp;rsquo;t see, and that gave so many over players joy and satisfaction. And with Elden Ring, I think that I finally found what this was.&lt;/p&gt;
+&lt;p&gt;Indeed, playing Elden Ring made me re-think many of my habits as a player; and in particular, my relation to the famous &lt;em&gt;Game over&lt;/em&gt; screen. In &lt;em&gt;Dark Souls&lt;/em&gt; or in Elden Ring, this screen simply says &lt;em&gt;You died&lt;/em&gt;; and as a player, it&amp;rsquo;s easy to take it as a sign that you did something wrong. That you should feel bad, and that this feeling of failure is a part of what will ultimately push you to better protect your character next time, and win. I think that most gamers would agree that that&amp;rsquo;s how a &lt;em&gt;Game over&lt;/em&gt; screen feels in most games; it&amp;rsquo;s a small punishment, but a punishment all the same. A just punishment. The same one that happens when the opposite team scores a goal in your soccer match : you just want to avoid it more afterward, and it&amp;rsquo;s really a part of the funs in many ways.&lt;/p&gt;
+&lt;p&gt;But in Elden Ring, I&amp;rsquo;ve found that seeing this &lt;em&gt;Game over&lt;/em&gt; screen as a sign of failure doomed me to get into a circle of frustration. The more I died, the more I got excited to win; but then, I started to get stressed; and then, frustrated; and all the time, I would become worse and worse in the fight. I would die to the knight more and more quickly, sometimes without even being able to hit him once. And here was the lesson : the &lt;em&gt;Game over&lt;/em&gt; was a failure, but not the one that I imagined. It was a lesson more than a failure, and one that connected to an awesome bit of psychology : the Yerkes-Dodson law.&lt;/p&gt;
+&lt;h2 id=&#34;you-died--you-learned&#34;&gt;You died | You learned&lt;/h2&gt;
+&lt;p&gt;The Yerkes-Dodson law is absolutely fascinating, especially when you take into account its &amp;ldquo;zone of delusion&amp;rdquo;. Basically, the law describes a possible relationship between pressure and performance at different tasks in humans. Interestingly, it can be shown as a bell-shaped curve; what that means is that we perform better when we have a certain amount of pressure put on us. But even more interestingly, it means that as soon as the pressure gets too high, our productivity drops. This is called the &lt;em&gt;zone of delusion&lt;/em&gt;, because in this zone, we can often get tricked by our emotions into thinking &amp;ldquo;&lt;em&gt;if I were a bit more stressed, I&amp;rsquo;d perform better&lt;/em&gt;&amp;quot;; while in fact, we have already passed the optimum of the curve. Indeed, things would (according to this law) only get worse if we get more stressed or anxious about what we&amp;rsquo;re doing. Despite all of this, one has to remember that the empirical evidence for this &amp;ldquo;law&amp;rdquo; &lt;a href=&#34;https://www.emerald.com/insight/content/doi/10.1108/JMP-03-2013-0085/full/html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;has been disputed&lt;/a&gt;, and that other, more complex theories on the subject now exist. Still, the Yerkes-Dodson law contains some useful insights that I think are applicable in our daily lives.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-a-graph-representing-the-yerkes-dodson-law-while-it-does-not-corresponding-to-how-the-law-was-first-formulated-by-robert-m-yerkes-and-john-d-dodson-it-is-the-one-that-is-most-often-utilized-to-represent-it&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;A graph representing the Yerkes-Dodson law. While it does not corresponding to how the law was first formulated by Robert M. Yerkes and John D. Dodson, it is the one that is most often utilized to represent it.&#34; srcset=&#34;
+               /post/elden_ring_and_yerkes_dodson_law/yerkes_dodson_law_wikipedia_hu3d9524445d563ccecbddaf69f724bc27_71093_8c19efedcf50404fb4585caa3dc1b756.webp 400w,
+               /post/elden_ring_and_yerkes_dodson_law/yerkes_dodson_law_wikipedia_hu3d9524445d563ccecbddaf69f724bc27_71093_7101d089afe051b2bcd4f5325d091666.webp 760w,
+               /post/elden_ring_and_yerkes_dodson_law/yerkes_dodson_law_wikipedia_hu3d9524445d563ccecbddaf69f724bc27_71093_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://klemet.github.io/post/elden_ring_and_yerkes_dodson_law/yerkes_dodson_law_wikipedia_hu3d9524445d563ccecbddaf69f724bc27_71093_8c19efedcf50404fb4585caa3dc1b756.webp&#34;
+               width=&#34;748&#34;
+               height=&#34;422&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      A graph representing the Yerkes-Dodson law. While it does not corresponding to how the law was first formulated by Robert M. Yerkes and John D. Dodson, it is the one that is most often utilized to represent it.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;I think that you can see the connection between those insights and Elden Ring : while fighting the knight, I quickly got into something resembling the zone of delusion. By putting on myself the pressure to perform, to succeed, and to avoid the &lt;em&gt;Game over&lt;/em&gt; screen, I thought that I would get better; but I only got worse. Frustration made me more prone to errors; and in particular, it made me impatient (a mortal mistake in a game like Elden Ring). But when I finally saw that was happening and remembered the Yerkes-Dodson law, it all clicked : I was loosing because I saw the act of losing the fight as a great mistake. But it was not a great mistake. How could losing at a video-game designed to be hard and challenging be a great mistake ? It would be like saying that your first drawing as an artist not being as worthy as the &lt;em&gt;Mona Lisa&lt;/em&gt; a great mistake. It&amp;rsquo;s not even really a mistake : it&amp;rsquo;s a lesson, as we can often become better only by practice. Hence, this is not a punishment, but something precious that is given to you because you tried; not something taken from you because you failed.&lt;/p&gt;
+&lt;p&gt;And so, I came back to the knight. But I came back with a changed perspective. I wasn&amp;rsquo;t the guy who lost against him and wanted revenge anymore; I lost my frustration, and stopped acting with pettiness. I accepted that this difficult fight was part of the game. A wonderful game; a wonderful privilege to traverse beautiful hand-crafted lands to give myself time to learn and enjoy the world in a safe environment. I accepted that he would beat me many times again. And then, everything changed; Because now, I came to him as a student as much as an adversary.&lt;/p&gt;
+&lt;p&gt;I took the time to avoid his attacks. I took the time to look at them. And then, I saw it : one opening. Two openings. Two small moments that I could use to touch him with my sword without being touched in return. I tried to take advantage of one. I failed. Never mind; I tried again with a smile. And I succeeded. His life bar lowered a bit. But I died, and came back again. Yet each time, the probability of him touching me got lower. Each time, I got a bit better, until I got a lot better. I had reversed the trend. I had broken the cycle. And I didn&amp;rsquo;t do it through more anger, more stress or more pressure : but with more calm, more detachment, and more acceptance. I changed my position on the Yerkes-Dodson law towards an optimal spot of performance, and it showed.&lt;/p&gt;
+&lt;p&gt;I ended up winning pretty quickly. The knight fell on his knees, disappearing softly in a myriad of sparkles. One down. Thousands to go. The rest of my life, just as in Elden Ring, would be filled with though challenges, and maybe even enemies to face. But while life would impose these onto me, the choice of my state of mind would remain partially mine. I could increase my stress, put more burden of my shoulders, and thus make myself prone to breaking the day that I would inevitably fail one of my encounters with reality. Or I could choose to see everything as a lesson, everything as a gift, and thus give me wings to soar higher than my insecurities, staying flexible and adaptive. To remember this, I will keep walking towards the Elden Ring, with the Yerkes-Dodson law (or what I understand of it) as a precious reminder of this truth.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Book review : Love and Rage, The Path of Liberation through Anger by Lama Rod Owens</title>
