@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>forestry | Clément Hardy</title>
-    <link>https://klemet.github.io/tag/forestry/</link>
-      <atom:link href="https://klemet.github.io/tag/forestry/index.xml" rel="self" type="application/rss+xml" />
-    <description>forestry</description>
+    <title>landscape ecology | Clément Hardy</title>
+    <link>https://klemet.github.io/tag/landscape-ecology/</link>
+      <atom:link href="https://klemet.github.io/tag/landscape-ecology/index.xml" rel="self" type="application/rss+xml" />
+    <description>landscape ecology</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Clément Hardy</copyright><lastBuildDate>Tue, 28 Mar 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://klemet.github.io/media/icon_hu93a42bfcf8f1c81b76f58cb79681382c_22880_512x512_fill_lanczos_center_3.png</url>
-      <title>forestry</title>
-      <link>https://klemet.github.io/tag/forestry/</link>
+      <title>landscape ecology</title>
+      <link>https://klemet.github.io/tag/landscape-ecology/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://klemet.github.io/publication/hardy-landis-ii-frs-extension/</link>
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://klemet.github.io/publication/hardy-landis-ii-frs-extension/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Global change risks a threatened species due to alteration of predator–prey dynamics</title>
-      <link>https://klemet.github.io/publication/labadie-prey-predator-dynamic/</link>
-      <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://klemet.github.io/publication/labadie-prey-predator-dynamic/</guid>
       <description></description>
     </item>
     

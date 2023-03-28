@@ -1,5 +1,5 @@
 ---
-title: Documentary - La bataille pour la forêt
+title: 📺 Documentary - La bataille pour la forêt
 
 event: Savoir media documentary - La bataille pour la forêt
 event_url: https://savoir.media/la-bataille-pour-la-foret/clip/lavenir-de-la-foret
