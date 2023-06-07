@@ -5,12 +5,35 @@
     <link>https://klemet.github.io/</link>
       <atom:link href="https://klemet.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Clément Hardy</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Clément Hardy</copyright><lastBuildDate>Tue, 28 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Clément Hardy</copyright><lastBuildDate>Thu, 01 Jun 2023 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://klemet.github.io/media/icon_hu93a42bfcf8f1c81b76f58cb79681382c_22880_512x512_fill_lanczos_center_3.png</url>
       <title>Clément Hardy</title>
       <link>https://klemet.github.io/</link>
     </image>
+    
+    <item>
+      <title>🏆 🎥 The future of forests</title>
+      <link>https://klemet.github.io/talk/the-future-of-forests/</link>
+      <pubDate>Thu, 01 Jun 2023 13:00:00 +0000</pubDate>
+      <guid>https://klemet.github.io/talk/the-future-of-forests/</guid>
+      <description>&lt;p&gt;In 2023, the NSERC (an organisation of the federal government of Canada that finances scientific research) launch another edition of their &amp;ldquo;&lt;a href=&#34;https://www.nserc-crsng.gc.ca/ScienceAction/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Science Action !&lt;/a&gt;&amp;rdquo; contest. The pitch was simple, yet challenging : graduate students could produce a 1 minute video showcasing their research in an interesting way, which would be evaluated by different juries.&lt;/p&gt;
+&lt;p&gt;I participated with a video of my own, and tried to implement a lot knowledge gathered during the ComSciCon-QC of 2022 (see &lt;a href=&#34;../comscicon-qc-2022-is-intensive-forestry-a-catastrophy-or-an-opportunity-french&#34;&gt;here&lt;/a&gt; for more). I wanted to make a video featuring the research of the 3rd chapter of my PhD, currently ongoing, and that I briefly presented in a &lt;a href=&#34;../documentary-la-bataille-pour-la-foret&#34;&gt;documentary&lt;/a&gt;. It was also the opportunity to try to produce a video as &amp;ldquo;professional-looking&amp;rdquo; as possible, as I&amp;rsquo;d like to explore this medium for science communication in the future.&lt;/p&gt;
+&lt;p&gt;To my delight, I won one of the 6 prizes of the contest ! It was a very encouraging result to keep my career going in this field. I&amp;rsquo;m extremly thankful to all of my friends and colleagues who gave me precious advice, and encouraged me to do my best !&lt;/p&gt;
+&lt;p&gt;The video is in french, but auto-translated subtitles are available in english.&lt;/p&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/uMw67yK-LnY&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>🥈 In the shadow of Jevons - When efficiency brings environmental destruction (in french)</title>
+      <link>https://klemet.github.io/talk/in-the-shadow-of-jevons-when-efficiency-brings-environmental-destruction-in-french/</link>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://klemet.github.io/talk/in-the-shadow-of-jevons-when-efficiency-brings-environmental-destruction-in-french/</guid>
+      <description>&lt;p&gt;A yearly science communication contest is held by a gathering of several research groups of the UQAM, the pôle ISE-CIRODD-RIISQ. The theme of the 2023 edition of the contest was &lt;em&gt;Transitions, decarbonization and resilience&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I participated with a very short article talking about &lt;a href=&#34;https://en.wikipedia.org/wiki/Jevons_paradox&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jevons paradox&lt;/a&gt; and its implications concerning the consumption of more effective products and &amp;ldquo;green&amp;rdquo; (e.g. cars, planes, etc.). I concluded that based on the Jevons paradox and existing empirical data, more efficient vehicules, electronic devices or agricultural methods can create more environmental problems that they solve.&lt;/p&gt;
+&lt;p&gt;To my surprise, I won the second prize ! If you&amp;rsquo;re curious, you can check out the article I subbmited by clicking on the &lt;strong&gt;PDF&lt;/strong&gt; button at the top of the page.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A LANDIS-II extension for simulating forest road networks</title>

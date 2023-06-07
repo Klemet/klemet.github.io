@@ -13,7 +13,7 @@ main:
   - name: Tools
     url: '#projects'
     weight: 30
-  - name: Talks
+  - name: Communications
     url: '#talks'
     weight: 40
   - name: Publications
