@@ -1,5 +1,5 @@
 ---
-title: Simulating forest roads is necessary to determine the impacts of forest management on habitat amount and fragmentation (QCBS)
+title: 📊 Simulating forest roads is necessary to determine the impacts of forest management on habitat amount and fragmentation (QCBS)
 
 event: 11th annual symposium of the Centre de la Science de la Biodiversité du Québec (CSBQ)
 event_url: https://qcbs.ca

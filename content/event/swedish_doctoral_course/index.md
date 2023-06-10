@@ -1,5 +1,5 @@
 ---
-title: Long term impacts of uneven-aged management
+title: 📊 Long term impacts of uneven-aged management
 
 event: Swedish University of Agricultural Sciences doctoral course - Enhancing forest resilience for an uncertain future
 event_url: https://www.slu.se/en/graduate-schools/BECFOR/activities/courses/ph.d-course-enhancing-forest-resilience-for-an-uncertain-future/

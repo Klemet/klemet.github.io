@@ -1,5 +1,5 @@
 ---
-title: 🏆 Long-term impacts of uneven-aged development on the quantity and fragmentation of old-growth forest in a landscape (CEF)
+title: 📊 🏆 Long-term impacts of uneven-aged development on the quantity and fragmentation of old-growth forest in a landscape (CEF)
 
 event: 14th annual symposium of the Centre for Forest Research (CEF)
 event_url: http://www.cef-cfr.ca/index.php?n=Colloque.Colloque2021

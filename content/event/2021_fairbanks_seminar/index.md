@@ -1,5 +1,5 @@
 ---
-title: Long-term impacts of uneven-aged development on the quantity and fragmentation of old-growth forest in a landscape (University of Alaska Fairbank)
+title: 📊 Long-term impacts of uneven-aged development on the quantity and fragmentation of old-growth forest in a landscape (University of Alaska Fairbank)
 
 event: University of Alaska Fairbank IAB Life Science Hour Seminar
 event_url: https://uaf.edu/iab/news/life-science-hour.php?lsss_id=2137

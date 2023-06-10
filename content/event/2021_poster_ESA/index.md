@@ -1,5 +1,5 @@
 ---
-title: Simulating forest roads is necessary to determine the impacts of forest management on habitat amount and fragmentation (ESA)
+title: 📊 Simulating forest roads is necessary to determine the impacts of forest management on habitat amount and fragmentation (ESA)
 
 event: Ecological Society of America 2021 Annual meeting
 event_url: https://www.esa.org/longbeach/

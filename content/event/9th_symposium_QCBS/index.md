@@ -1,5 +1,5 @@
 ---
-title: How do I cut this forest landscape for you? - Influence of space tessellation methods on modeling in forest ecology
+title: 📊 How do I cut this forest landscape for you? - Influence of space tessellation methods on modeling in forest ecology
 
 event: 9th annual symposium of the Centre de la Science de la Biodiversité du Québec (CSBQ)
 event_url: https://qcbs.ca

@@ -1,5 +1,5 @@
 ---
-title: The influence of forest road networks on the long term impacts of uneven-aged management
+title: 📊 The influence of forest road networks on the long term impacts of uneven-aged management
 
 event: 19th annual meeting of the North American Regional Association of the International Association for Landscape Ecology (NA-IALE)
 event_url: https://www.ialena.org/schedule2020.html

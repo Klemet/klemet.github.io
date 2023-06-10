@@ -1,5 +1,5 @@
 ---
-title: Roads to conservation
+title: 📊 Roads to conservation
 
 event: 10th annual symposium of the Centre de la Science de la Biodiversité du Québec (CSBQ)
 event_url: https://qcbs.ca/

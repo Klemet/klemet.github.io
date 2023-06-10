@@ -1,5 +1,5 @@
 ---
-title: 🥈 In the shadow of Jevons - When efficiency brings environmental destruction (in french)
+title: 📝 🥈 In the shadow of Jevons - When efficiency brings environmental destruction (French)
 
 event: Science communication contest of the pôle ISE-CIRODD-RIISQE 
 event_url: https://riisq.ca/en/contest/

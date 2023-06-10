@@ -1,5 +1,5 @@
 ---
-title: 🏆 🎥 The future of forests
+title: 🎥 🏆 The future of forests
 
 event: Science Action ! Contest video - The future of forests
 event_url: https://www.youtube.com/watch?v=uMw67yK-LnY

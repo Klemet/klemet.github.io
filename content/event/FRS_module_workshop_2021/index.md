@@ -1,5 +1,5 @@
 ---
-title: Workshop to learn to use the FRS module for LANDIS-II
+title: 🛠 Workshop to learn to use the FRS module for LANDIS-II
 
 event: Discovery workshop for students and researchers
 event_url: https://github.com/Klemet/frs-module-workshop

@@ -75,9 +75,9 @@ email: ""
 highlight_name: true
 ---
 
-I am a **PhD student at the Université du Québec à Montréal (UQAM)**. I currently work on the long term and large scale impacts of uneven-aged forest management on forest ecosystems, which made me devellop several open-source tools for researchers.
+I am a **PhD student at the Université du Québec à Montréal (UQAM)**.
 
-I also work with the **Ministry of Forests, Fauna and Parks (MFFP) of Québec** as a student consultant on the impact of changes in surface albedo following forestry operations.
+My research tries to explore the effects of different forest management strategies on forests landscapes. To do that, I used and develloped several open-source tools made for researchers.
 
 Due to the nature of my research and hobbies, I develloped through time skills in programming, management, organisation and leadership. I tend to hone those skills by develloping and supporting open-source software, and by helping different groups and projects with whom I collaborate in and out of my professional life. 
 

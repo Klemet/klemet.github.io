@@ -1,5 +1,5 @@
 ---
-title: Organization and open-source workshop
+title: 🛠 Organization and open-source workshop
 
 event: Discovery workshop for students and researchers
 event_url: https://klemet.github.io/Workshop-Organization-EN/

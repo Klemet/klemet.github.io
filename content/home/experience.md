@@ -30,6 +30,15 @@ experience:
     date_start: '2017-10-04'
     description: Studying the long term impacts of uneven-aged forest management through spatially explicit modelling.
 
+  - title: Student consultant
+    company: Ministry of Forests and Natural Ressources of Quebec
+    company_url: 'https://uqam.ca/'
+    company_logo: Logomrnfq
+    location: Montréal, Québec
+    date_start: '2019-09-01'
+    date_end: '2023-05-01'
+    description: Working on different projects at the *Direction de l’aménagement écosystémique des forêts* (DAEF).
+
   - title: Teaching assistant
     company: Université du Québec à Montréal (UQAM)
     company_url: 'https://uqam.ca/'

@@ -1,5 +1,5 @@
 ---
-title: 🏆 Long-term impacts of uneven-aged development on the quantity and fragmentation of old-growth forest in a landscape (IBFRA)
+title: 📊 🏆 Long-term impacts of uneven-aged development on the quantity and fragmentation of old-growth forest in a landscape (IBFRA)
 
 event: Annual conference of the International Boreal Forest Research Association (IBFRA)
 event_url: https://sites.google.com/alaska.edu/ibfra2021/home
