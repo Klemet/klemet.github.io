@@ -27,9 +27,9 @@ url_slides: ""
 url_video: ""
 ---
 
-In 2023, the NSERC (an organisation of the federal government of Canada that finances scientific research) launch another edition of their "[Science Action !](https://www.nserc-crsng.gc.ca/ScienceAction/)" contest. The pitch was simple, yet challenging : graduate students could produce a 1 minute video showcasing their research in an interesting way, which would be evaluated by different juries.
+In 2023, the NSERC (an organisation of the federal government of Canada that finances scientific research) launched another edition of their "[Science Action !](https://www.nserc-crsng.gc.ca/ScienceAction/)" contest. The pitch was simple, yet challenging : graduate students who participated had to produce a 1 minute video showcasing their research in an interesting way, which would be evaluated by different juries.
 
-I participated with a video of my own, and tried to implement a lot knowledge gathered during the ComSciCon-QC of 2022 (see [here](../comscicon-qc-2022-is-intensive-forestry-a-catastrophy-or-an-opportunity-french) for more). I wanted to make a video featuring the research of the 3rd chapter of my PhD, currently ongoing, and that I briefly presented in a [documentary](../documentary-la-bataille-pour-la-foret). It was also the opportunity to try to produce a video as "professional-looking" as possible, as I'd like to explore this medium for science communication in the future.
+I participated with a video of my own, and tried to implement a lot of the knowledge I gathered during the ComSciCon-QC of 2022 (see [here](../comscicon-qc-2022-is-intensive-forestry-a-catastrophy-or-an-opportunity-french) for more). I wanted to make a video featuring the research of the 3rd chapter of my PhD, currently ongoing, and that I briefly presented in a [documentary](../documentary-la-bataille-pour-la-foret). It was also the opportunity to try to produce a video as "professional-looking" as possible, as I'd like to explore this medium for science communication in the future.
 
 To my delight, I won one of the 6 prizes of the contest ! It was a very encouraging result to keep my career going in this field. I'm extremly thankful to all of my friends and colleagues who gave me precious advice, and encouraged me to do my best !
 
