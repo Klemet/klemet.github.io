@@ -254,6 +254,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RJL86K5TDX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-RJL86K5TDX', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -883,10 +922,10 @@
 <figure  id="figure-lama-rod-owenshttpswwwlamarodcom-author-of-love-and-rage">
   <div class="d-flex justify-content-center">
     <div class="w-100" ><img alt="[Lama Rod Owens](https://www.lamarod.com/), author of Love and Rage" srcset="
-               /post/love_and_rage_owens_2020/lama_rod_owens_hu5fea430c6379f85f65ad6852ec34aeb6_590656_33557d2614e4b4c950f55766938863c7.webp 400w,
+               /post/love_and_rage_owens_2020/lama_rod_owens_hu5fea430c6379f85f65ad6852ec34aeb6_590656_55f25aa029f52cbfc39c33da6f5a3377.webp 400w,
                /post/love_and_rage_owens_2020/lama_rod_owens_hu5fea430c6379f85f65ad6852ec34aeb6_590656_6e0cfb036f68e8211d4509dacfba40c8.webp 760w,
                /post/love_and_rage_owens_2020/lama_rod_owens_hu5fea430c6379f85f65ad6852ec34aeb6_590656_1200x1200_fit_q75_h2_lanczos.webp 1200w"
-               src="/post/love_and_rage_owens_2020/lama_rod_owens_hu5fea430c6379f85f65ad6852ec34aeb6_590656_33557d2614e4b4c950f55766938863c7.webp"
+               src="/post/love_and_rage_owens_2020/lama_rod_owens_hu5fea430c6379f85f65ad6852ec34aeb6_590656_55f25aa029f52cbfc39c33da6f5a3377.webp"
                width="760"
                height="458"
                loading="lazy" data-zoomable /></div>
@@ -919,10 +958,10 @@
 <figure  id="figure-picture-by-simran-sood-on-unsplashhttpsunsplashcomphotosql0t5zngfvq">
   <div class="d-flex justify-content-center">
     <div class="w-100" ><img alt="Picture by [Simran Sood on Unsplash](https://unsplash.com/photos/qL0t5zNGFVQ)" srcset="
-               /post/love_and_rage_owens_2020/simran-sood-qL0t5zNGFVQ-unsplash_hu1d962a6d9214d9038a21410d763f35ba_1135819_c450ef0d200eeea25208fb173524a30d.webp 400w,
+               /post/love_and_rage_owens_2020/simran-sood-qL0t5zNGFVQ-unsplash_hu1d962a6d9214d9038a21410d763f35ba_1135819_102d3f5daf5166f230eac981f5e23bff.webp 400w,
                /post/love_and_rage_owens_2020/simran-sood-qL0t5zNGFVQ-unsplash_hu1d962a6d9214d9038a21410d763f35ba_1135819_a27825e4d7f6816c391a38a2bfc89121.webp 760w,
                /post/love_and_rage_owens_2020/simran-sood-qL0t5zNGFVQ-unsplash_hu1d962a6d9214d9038a21410d763f35ba_1135819_1200x1200_fit_q75_h2_lanczos.webp 1200w"
-               src="/post/love_and_rage_owens_2020/simran-sood-qL0t5zNGFVQ-unsplash_hu1d962a6d9214d9038a21410d763f35ba_1135819_c450ef0d200eeea25208fb173524a30d.webp"
+               src="/post/love_and_rage_owens_2020/simran-sood-qL0t5zNGFVQ-unsplash_hu1d962a6d9214d9038a21410d763f35ba_1135819_102d3f5daf5166f230eac981f5e23bff.webp"
                width="570"
                height="760"
                loading="lazy" data-zoomable /></div>
@@ -957,10 +996,10 @@
 <figure  id="figure-picture-by-gayatri-malhotra-on-unsplashhttpsunsplashcomphotosamfnvovlavw">
   <div class="d-flex justify-content-center">
     <div class="w-100" ><img alt="Picture by [Gayatri Malhotra on Unsplash](https://unsplash.com/photos/amfnvOvlAVw)" srcset="
-               /post/love_and_rage_owens_2020/gayatri-malhotra-amfnvOvlAVw-unsplash_hu59e5d5b16f436db4e58d1ed32c4e3694_2468362_cce41393c3d72b34a112949d7af78abf.webp 400w,
+               /post/love_and_rage_owens_2020/gayatri-malhotra-amfnvOvlAVw-unsplash_hu59e5d5b16f436db4e58d1ed32c4e3694_2468362_8f655c0ed64ed591e7e12b8459d292e8.webp 400w,
                /post/love_and_rage_owens_2020/gayatri-malhotra-amfnvOvlAVw-unsplash_hu59e5d5b16f436db4e58d1ed32c4e3694_2468362_43e959ef430148d2a4a44b48401f4724.webp 760w,
                /post/love_and_rage_owens_2020/gayatri-malhotra-amfnvOvlAVw-unsplash_hu59e5d5b16f436db4e58d1ed32c4e3694_2468362_1200x1200_fit_q75_h2_lanczos.webp 1200w"
-               src="/post/love_and_rage_owens_2020/gayatri-malhotra-amfnvOvlAVw-unsplash_hu59e5d5b16f436db4e58d1ed32c4e3694_2468362_cce41393c3d72b34a112949d7af78abf.webp"
+               src="/post/love_and_rage_owens_2020/gayatri-malhotra-amfnvOvlAVw-unsplash_hu59e5d5b16f436db4e58d1ed32c4e3694_2468362_8f655c0ed64ed591e7e12b8459d292e8.webp"
                width="507"
                height="760"
                loading="lazy" data-zoomable /></div>
@@ -1227,7 +1266,7 @@
 
   
   <p class="powered-by">
-    © 2023 Clément Hardy
+    © 2024 Clément Hardy
   </p>
   
 

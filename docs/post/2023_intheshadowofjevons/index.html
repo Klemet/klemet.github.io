@@ -254,6 +254,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RJL86K5TDX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-RJL86K5TDX', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -887,10 +926,10 @@
 <figure  id="figure-jevons-paradox-encapsulated-in-one-add--we-might-think-that-were-helping-the-environment-by-using-a-plane-that-has-lower-emissions-but-all-that-were-doing-is-using-a-plane-when-we-might-avoid-it-for-cheaper-and-use-the-rest-of-our-money-to-buy-another-product-that-will-also-pollute-in-the-end-were-just-polluting-as-much-or-even-more-than-with-a-plane-that-consumes-more-fuel-than-this-one">
   <div class="d-flex justify-content-center">
     <div class="w-100" ><img alt="Jevons paradox encapsulated in one add : we might think that we&#39;re helping the environment by using a plane that has lower emissions. But all that we&#39;re doing is using a plane when we might avoid it, for cheaper, and use the rest of our money to buy another product that will also pollute. In the end, we&#39;re just polluting as much or even more than with a plane that consumes more fuel than this one." srcset="
-               /post/2023_intheshadowofjevons/ryan_air_add_hu9ecd9e661845dcdaef088c9310e39af5_59721_fbafa86ce56ce6f7716736041c314bda.webp 400w,
+               /post/2023_intheshadowofjevons/ryan_air_add_hu9ecd9e661845dcdaef088c9310e39af5_59721_bcdd3f523a72aa3b472498db9daad13d.webp 400w,
                /post/2023_intheshadowofjevons/ryan_air_add_hu9ecd9e661845dcdaef088c9310e39af5_59721_f787687afe884fcc0624516b9bbf09b6.webp 760w,
                /post/2023_intheshadowofjevons/ryan_air_add_hu9ecd9e661845dcdaef088c9310e39af5_59721_1200x1200_fit_q75_h2_lanczos.webp 1200w"
-               src="/post/2023_intheshadowofjevons/ryan_air_add_hu9ecd9e661845dcdaef088c9310e39af5_59721_fbafa86ce56ce6f7716736041c314bda.webp"
+               src="/post/2023_intheshadowofjevons/ryan_air_add_hu9ecd9e661845dcdaef088c9310e39af5_59721_bcdd3f523a72aa3b472498db9daad13d.webp"
                width="760"
                height="428"
                loading="lazy" data-zoomable /></div>
@@ -1157,7 +1196,7 @@
 
   
   <p class="powered-by">
-    © 2023 Clément Hardy
+    © 2024 Clément Hardy
   </p>
   
 
