@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>moose | Clément Hardy</title>
+    <link>https://klemet.github.io/tag/moose/</link>
+      <atom:link href="https://klemet.github.io/tag/moose/index.xml" rel="self" type="application/rss+xml" />
+    <description>moose</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Clément Hardy</copyright><lastBuildDate>Thu, 02 May 2024 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://klemet.github.io/media/icon_hu93a42bfcf8f1c81b76f58cb79681382c_22880_512x512_fill_lanczos_center_3.png</url>
+      <title>moose</title>
+      <link>https://klemet.github.io/tag/moose/</link>
+    </image>
+    
+    <item>
+      <title>📊 🏆 Modeling the future of forests and moose habitat at the mixedwood-boreal interface with LANDIS-II (CEF)</title>
+      <link>https://klemet.github.io/talk/modeling-the-future-of-forests-and-moose-habitat-at-the-mixedwood-boreal-interface-with-landis-ii-cef/</link>
+      <pubDate>Thu, 02 May 2024 13:00:00 +0000</pubDate>
+      <guid>https://klemet.github.io/talk/modeling-the-future-of-forests-and-moose-habitat-at-the-mixedwood-boreal-interface-with-landis-ii-cef/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;🏆 This presentation won the &amp;ldquo;Best presentation&amp;rdquo; award for this annual symposium of the CEF&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The composition of Quebec&amp;rsquo;s forests is likely to be altered by climate change, impacting not only the flora but also the fauna that depends on them. As part of the Canada-wide DIVERSE project, we set out to predict the impact of these changes on moose habitat quality in a 4 million hectare area in the Mauricie region, at the interface between the mixed forests of southern Quebec and the more northerly boreal forests. We used the LANDIS-II model to simulate the evolution of the area at a resolution of 1ha over 100 years. Simulations included the effect of 3 climate scenarios (baseline, RCP 4.5 and RCP 8.5); different harvest levels (50%, 100% or 200% of usual merchantable volume); different cutting regimes (usual, more clearcuts, more partial cuts); forest fires; and spruce budworm epidemics. We then classified the forests of the landscape to calculate a Habitat Quality Index (HQI) for moose through a sliding window.&lt;/p&gt;
+&lt;p&gt;Our results reveal uneven changes across the landscape. Increased timber harvesting and climate change both influenced the north (boreal forests) and south (hardwood and mixed forests) differently. Increased harvesting slightly raised the HQI in the north by favouring food-rich forests, but lowered it in the south by generating relatively uninteresting forests for moose. Climate change has had the opposite effect, reducing the HQI in the north, and increasing it in the south through the progressive replacement of coniferous forests with deciduous or mixed forests. Finally, partial cutting has also slightly increased the HQI in different parts of the territory compared to clear-cutting. Despite the limitations of HQIs, our study provides important recommendations for forest management in the context of climate change.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
