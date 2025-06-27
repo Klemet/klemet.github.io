@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Clément Hardy
+title: Clément Hardy, PhD
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: PhD student in forest ecology
+role: Postdoctoral fellow in forest ecology
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Université du Québec à Montréal
-  url: https://uqam.ca/
+- name: Université du Québec en Outaouais
+  url: https://uqo.ca/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Clément is a PhD student working on forest ecology, forest management, spatially explicit modelling and functional connectivity. He's also interested in history, ethics, productivity tools, video-games and photography.
+bio: Clément is a postdoctoral fellow working on forest ecology, forest management, spatially explicit modelling and functional connectivity. He's also interested in history, ethics, productivity tools, video-games and photography.
 
 # Interests to show in About widget
 interests:
@@ -32,7 +32,7 @@ education:
   courses:
   - course: PhD in forest ecology
     institution: Université du Québec à Montréal
-    year: ongoing
+    year: 2024
   - course: Master degree in Ecology, Biodiversity and Evolution
     institution: Université Pierre et Marie Curie
     year: 2016
@@ -75,10 +75,10 @@ email: ""
 highlight_name: true
 ---
 
-I am a **PhD student at the Université du Québec à Montréal (UQAM)**.
+I am a **postdoctoral fellow at the Université du Québec en Outaouais (UQO)**.
 
 My research tries to explore the effects of different forest management strategies on forests landscapes. To do that, I used and develloped several open-source tools made for researchers.
 
 Due to the nature of my research and hobbies, I develloped through time skills in programming, management, organisation and leadership. I tend to hone those skills by develloping and supporting open-source software, and by helping different groups and projects with whom I collaborate in and out of my professional life. 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV_2022_Clement_EN.pdf" "newtab" >}}resumé{{< /staticref >}}
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Clément_Hardy_CV_2024.pdf" "newtab" >}}resumé{{< /staticref >}}

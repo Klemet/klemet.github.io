@@ -1,0 +1,1372 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Clément Hardy, PhD" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="🏆 This presentation won the &ldquo;Best presentation&rdquo; award for this annual symposium of the CEF.
+The composition of Quebec&rsquo;s forests is likely to be altered by climate change, impacting not only the flora but also the fauna that depends on them." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://klemet.github.io/talk/modeling-the-future-of-forests-and-moose-habitat-at-the-mixedwood-boreal-interface-with-landis-ii-cef/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#4caf50" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.fb1535f6d15c2709cd9873b6f909b913.css" />
+
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RJL86K5TDX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-RJL86K5TDX', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu93a42bfcf8f1c81b76f58cb79681382c_22880_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu93a42bfcf8f1c81b76f58cb79681382c_22880_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://klemet.github.io/talk/modeling-the-future-of-forests-and-moose-habitat-at-the-mixedwood-boreal-interface-with-landis-ii-cef/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="Clément Hardy" />
+  <meta property="og:url" content="https://klemet.github.io/talk/modeling-the-future-of-forests-and-moose-habitat-at-the-mixedwood-boreal-interface-with-landis-ii-cef/" />
+  <meta property="og:title" content="📊 🏆 Modeling the future of forests and moose habitat at the mixedwood-boreal interface with LANDIS-II (CEF) | Clément Hardy" />
+  <meta property="og:description" content="🏆 This presentation won the &ldquo;Best presentation&rdquo; award for this annual symposium of the CEF.
+The composition of Quebec&rsquo;s forests is likely to be altered by climate change, impacting not only the flora but also the fauna that depends on them." /><meta property="og:image" content="https://klemet.github.io/talk/modeling-the-future-of-forests-and-moose-habitat-at-the-mixedwood-boreal-interface-with-landis-ii-cef/featured.png" />
+    <meta property="twitter:image" content="https://klemet.github.io/talk/modeling-the-future-of-forests-and-moose-habitat-at-the-mixedwood-boreal-interface-with-landis-ii-cef/featured.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2024-05-02T13:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2024-05-02T13:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+    
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://klemet.github.io/talk/modeling-the-future-of-forests-and-moose-habitat-at-the-mixedwood-boreal-interface-with-landis-ii-cef/"
+  },
+  "name": "📊 🏆 Modeling the future of forests and moose habitat at the mixedwood-boreal interface with LANDIS-II (CEF)",
+  
+  "location": {
+    "@type": "Place",
+    "name": "Virtual"
+  },
+  
+  
+  "image": [
+    "https://klemet.github.io/talk/modeling-the-future-of-forests-and-moose-habitat-at-the-mixedwood-boreal-interface-with-landis-ii-cef/featured.png"
+  ],
+  
+  "startDate": "2024-05-02T13:00:00Z",
+  
+  
+  "performer": {
+    "@type": "Person",
+    "name": "Clément Hardy, PhD"
+  },
+  
+  "description": "🏆 This presentation won the \u0026ldquo;Best presentation\u0026rdquo; award for this annual symposium of the CEF.\nThe composition of Quebec\u0026rsquo;s forests is likely to be altered by climate change, impacting not only the flora but also the fauna that depends on them."
+}
+</script>
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>📊 🏆 Modeling the future of forests and moose habitat at the mixedwood-boreal interface with LANDIS-II (CEF) | Clément Hardy</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="97c6c4a7ca0075651a67953de72f7ad4" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.7e85d6cfe81caeb57cc49452f9b55e03.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Clément Hardy</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Clément Hardy</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Tools</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Communications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>📊 🏆 Modeling the future of forests and moose habitat at the mixedwood-boreal interface with LANDIS-II (CEF)</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      Clément Hardy, PhD</span>
+  </div>
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 258px; max-height: 196px;">
+  <div style="position: relative">
+    <img src="/talk/modeling-the-future-of-forests-and-moose-habitat-at-the-mixedwood-boreal-interface-with-landis-ii-cef/featured_hu1d6852a8805444d5bc7fac0829cb02ac_7726_720x2500_fit_q75_h2_lanczos_3.webp" width="258" height="196" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    
+      <br>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            May 2, 2024
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-9">
+            <a href="http://www.cef-cfr.ca/index.php?n=Colloque.Colloque2021" target="_blank" rel="noopener">
+            17th annual symposium of the Centre for Forest Research (CEF)
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Location</div>
+          <div class="col-12 col-md-9">Virtual</div>
+          
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      <blockquote>
+<p><strong>🏆 This presentation won the &ldquo;Best presentation&rdquo; award for this annual symposium of the CEF</strong>.</p>
+</blockquote>
+<p>The composition of Quebec&rsquo;s forests is likely to be altered by climate change, impacting not only the flora but also the fauna that depends on them. As part of the Canada-wide DIVERSE project, we set out to predict the impact of these changes on moose habitat quality in a 4 million hectare area in the Mauricie region, at the interface between the mixed forests of southern Quebec and the more northerly boreal forests. We used the LANDIS-II model to simulate the evolution of the area at a resolution of 1ha over 100 years. Simulations included the effect of 3 climate scenarios (baseline, RCP 4.5 and RCP 8.5); different harvest levels (50%, 100% or 200% of usual merchantable volume); different cutting regimes (usual, more clearcuts, more partial cuts); forest fires; and spruce budworm epidemics. We then classified the forests of the landscape to calculate a Habitat Quality Index (HQI) for moose through a sliding window.</p>
+<p>Our results reveal uneven changes across the landscape. Increased timber harvesting and climate change both influenced the north (boreal forests) and south (hardwood and mixed forests) differently. Increased harvesting slightly raised the HQI in the north by favouring food-rich forests, but lowered it in the south by generating relatively uninteresting forests for moose. Climate change has had the opposite effect, reducing the HQI in the north, and increasing it in the south through the progressive replacement of coniferous forests with deciduous or mixed forests. Finally, partial cutting has also slightly increased the HQI in different parts of the territory compared to clear-cutting. Despite the limitations of HQIs, our study provides important recommendations for forest management in the context of climate change.</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/ecology/">ecology</a>
+  
+  <a class="badge badge-light" href="/tag/moose/">moose</a>
+  
+  <a class="badge badge-light" href="/tag/habitat/">habitat</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://klemet.github.io/talk/modeling-the-future-of-forests-and-moose-habitat-at-the-mixedwood-boreal-interface-with-landis-ii-cef/&amp;text=%f0%9f%93%8a%20%f0%9f%8f%86%20Modeling%20the%20future%20of%20forests%20and%20moose%20habitat%20at%20the%20mixedwood-boreal%20interface%20with%20LANDIS-II%20%28CEF%29" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://klemet.github.io/talk/modeling-the-future-of-forests-and-moose-habitat-at-the-mixedwood-boreal-interface-with-landis-ii-cef/&amp;t=%f0%9f%93%8a%20%f0%9f%8f%86%20Modeling%20the%20future%20of%20forests%20and%20moose%20habitat%20at%20the%20mixedwood-boreal%20interface%20with%20LANDIS-II%20%28CEF%29" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=%f0%9f%93%8a%20%f0%9f%8f%86%20Modeling%20the%20future%20of%20forests%20and%20moose%20habitat%20at%20the%20mixedwood-boreal%20interface%20with%20LANDIS-II%20%28CEF%29&amp;body=https://klemet.github.io/talk/modeling-the-future-of-forests-and-moose-habitat-at-the-mixedwood-boreal-interface-with-landis-ii-cef/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://klemet.github.io/talk/modeling-the-future-of-forests-and-moose-habitat-at-the-mixedwood-boreal-interface-with-landis-ii-cef/&amp;title=%f0%9f%93%8a%20%f0%9f%8f%86%20Modeling%20the%20future%20of%20forests%20and%20moose%20habitat%20at%20the%20mixedwood-boreal%20interface%20with%20LANDIS-II%20%28CEF%29" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=%f0%9f%93%8a%20%f0%9f%8f%86%20Modeling%20the%20future%20of%20forests%20and%20moose%20habitat%20at%20the%20mixedwood-boreal%20interface%20with%20LANDIS-II%20%28CEF%29%20https://klemet.github.io/talk/modeling-the-future-of-forests-and-moose-habitat-at-the-mixedwood-boreal-interface-with-landis-ii-cef/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://klemet.github.io/talk/modeling-the-future-of-forests-and-moose-habitat-at-the-mixedwood-boreal-interface-with-landis-ii-cef/&amp;title=%f0%9f%93%8a%20%f0%9f%8f%86%20Modeling%20the%20future%20of%20forests%20and%20moose%20habitat%20at%20the%20mixedwood-boreal%20interface%20with%20LANDIS-II%20%28CEF%29" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://klemet.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu76b9e87e671b45eb7edba9f04e688298_141278_270x270_fill_q75_lanczos_center.jpg" alt="Clément Hardy, PhD"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://klemet.github.io/">Clément Hardy, PhD</a></h5>
+      <h6 class="card-subtitle">Postdoctoral fellow in forest ecology</h6>
+      <p class="card-text">Clément is a postdoctoral fellow working on forest ecology, forest management, spatially explicit modelling and functional connectivity. He&rsquo;s also interested in history, ethics, productivity tools, video-games and photography.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:clem.hardy@pm.me" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/Klemet" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/clement-hardy-ecology/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://flickr.com/photos/135911843@N03/" target="_blank" rel="noopener">
+        <i class="fab fa-flickr"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/talk/simulating-forest-roads-is-necessary-to-determine-the-impacts-of-forest-management-on-habitat-amount-and-fragmentation-qcbs/">📊 Simulating forest roads is necessary to determine the impacts of forest management on habitat amount and fragmentation (QCBS)</a></li>
+      
+      <li><a href="/talk/long-term-impacts-of-uneven-aged-development-on-the-quantity-and-fragmentation-of-old-growth-forest-in-a-landscape-university-of-alaska-fairbank/">📊 Long-term impacts of uneven-aged development on the quantity and fragmentation of old-growth forest in a landscape (University of Alaska Fairbank)</a></li>
+      
+      <li><a href="/talk/long-term-impacts-of-uneven-aged-development-on-the-quantity-and-fragmentation-of-old-growth-forest-in-a-landscape-ibfra/">📊 🏆 Long-term impacts of uneven-aged development on the quantity and fragmentation of old-growth forest in a landscape (IBFRA)</a></li>
+      
+      <li><a href="/talk/simulating-forest-roads-is-necessary-to-determine-the-impacts-of-forest-management-on-habitat-amount-and-fragmentation-esa/">📊 Simulating forest roads is necessary to determine the impacts of forest management on habitat amount and fragmentation (ESA)</a></li>
+      
+      <li><a href="/talk/workshop-to-learn-to-use-the-frs-module-for-landis-ii/">🛠 Workshop to learn to use the FRS module for LANDIS-II</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    © 2024 Clément Hardy
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.5a3a4e7cbc7b4e121b2d29312cf8ad59.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.6b73888494485d3b0874ca2ec83f614f.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.f4140b8ec5a725451afc89ff5f0c8764.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

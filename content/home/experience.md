@@ -22,17 +22,18 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+
   - title: PhD student
     company: Université du Québec à Montréal (UQAM)
     company_url: 'https://uqam.ca/'
     company_logo: uqam-logo-1
     location: Montréal, Québec
     date_start: '2017-10-04'
+    date_end: '2024-03-22'
     description: Studying the long term impacts of uneven-aged forest management through spatially explicit modelling.
 
   - title: Student consultant
     company: Ministry of Forests and Natural Ressources of Quebec
-    company_url: 'https://uqam.ca/'
     company_logo: Logomrnfq
     location: Montréal, Québec
     date_start: '2019-09-01'
