@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TRIAD Management | Clément Hardy</title>
+    <link>https://klemet.github.io/tag/triad-management/</link>
+      <atom:link href="https://klemet.github.io/tag/triad-management/index.xml" rel="self" type="application/rss+xml" />
+    <description>TRIAD Management</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2025 Clément Hardy</copyright><lastBuildDate>Fri, 27 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://klemet.github.io/media/icon_hu93a42bfcf8f1c81b76f58cb79681382c_22880_512x512_fill_lanczos_center_3.png</url>
+      <title>TRIAD Management</title>
+      <link>https://klemet.github.io/tag/triad-management/</link>
+    </image>
+    
+    <item>
+      <title>Climate is stronger than you think - Exploring functional planting and TRIAD zoning for increased forest resilience to extreme disturbances</title>
+      <link>https://klemet.github.io/publication/hardy-triad-resilience/</link>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://klemet.github.io/publication/hardy-triad-resilience/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
