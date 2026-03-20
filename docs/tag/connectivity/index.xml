@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>connectivity | Clément Hardy</title>
+    <link>https://klemet.github.io/tag/connectivity/</link>
+      <atom:link href="https://klemet.github.io/tag/connectivity/index.xml" rel="self" type="application/rss+xml" />
+    <description>connectivity</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Clément Hardy</copyright><lastBuildDate>Thu, 27 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://klemet.github.io/media/icon_hu93a42bfcf8f1c81b76f58cb79681382c_22880_512x512_fill_lanczos_center_3.png</url>
+      <title>connectivity</title>
+      <link>https://klemet.github.io/tag/connectivity/</link>
+    </image>
+    
+    <item>
+      <title>Connectivity Analysis scripts and tools</title>
+      <link>https://klemet.github.io/project/connectivity-analysis-scripts-and-tools/</link>
+      <pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://klemet.github.io/project/connectivity-analysis-scripts-and-tools/</guid>
+      <description>&lt;h2 id=&#34;-description&#34;&gt;📑 Description&lt;/h2&gt;
+&lt;p&gt;A set of Python and R scripts to help you do a 4 stages connectivity analysis for terrestrial non-flying species in a Landscape. All scripts are heavily commented to indicate what to do and what&amp;rsquo;s happenning.&lt;/p&gt;
+&lt;p&gt;All of the analysis rely on a raster map that indicates the resistance cost of deplacement for the given species; in the current script, this map is generated with the methodology of &lt;a href=&#34;https://dx.plos.org/10.1371/journal.pone.0281980&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pither et al. 2023&lt;/a&gt; for Canadian terrestrial non-flying species. However, you can generate your own resistance map with a different method, and use it in the other scripts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/Klemet/ConnectivityAnalysis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more on the GitHub page of the project&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>forest management | Clément Hardy</title>
+    <link>https://klemet.github.io/tag/forest-management/</link>
+      <atom:link href="https://klemet.github.io/tag/forest-management/index.xml" rel="self" type="application/rss+xml" />
+    <description>forest management</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Clément Hardy</copyright><lastBuildDate>Thu, 27 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://klemet.github.io/media/icon_hu93a42bfcf8f1c81b76f58cb79681382c_22880_512x512_fill_lanczos_center_3.png</url>
+      <title>forest management</title>
+      <link>https://klemet.github.io/tag/forest-management/</link>
+    </image>
+    
+    <item>
+      <title>MHS-CBAU (Magic Harvest Scripting - Canadian Business As Usual)</title>
+      <link>https://klemet.github.io/project/mhs-cbau/</link>
+      <pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://klemet.github.io/project/mhs-cbau/</guid>
+      <description>&lt;h2 id=&#34;-description&#34;&gt;📑 Description&lt;/h2&gt;
+&lt;p&gt;MHS-CBAU is a an approach to simulate a Business-As-Usual forest management in Canadian lanscapes that are simulated with the &lt;a href=&#34;https://www.landis-ii.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LANDIS-II&lt;/a&gt; model and its &lt;a href=&#34;https://github.com/Klemet/LANDIS-II-Magic-Harvest&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Magic Harvest&lt;/a&gt; extension. &lt;strong&gt;In essence, it is made to simulate harvesting in LANDIS-II simulations in Canadian landscapes&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;MHS-CBAU works through a specific Python script (available in this repository) that is called by Magic Harvest during a LANDIS-II simulation. The Python script will make all forest management decisions, and then pass them to the &lt;a href=&#34;https://github.com/LANDIS-II-Foundation/Extension-Biomass-Harvest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Biomass Harvest&lt;/a&gt; extension of LANDIS-II which will execute the harvesting. To learn more about this method of using Magic Harvest and Biomass Harvest in tandem, please see &lt;a href=&#34;https://klemet.github.io/Workshop-MagicHarvest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this workshop&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/Klemet/MHS-CBAU&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more on the GitHub page of the project&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Magic Harvest extension for LANDIS-II</title>
+      <link>https://klemet.github.io/project/magic-harvest/</link>
+      <pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://klemet.github.io/project/magic-harvest/</guid>
+      <description>&lt;h2 id=&#34;-description&#34;&gt;📑 Description&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Magic Harvest&lt;/strong&gt; is an extension for the &lt;a href=&#34;http://www.landis-ii.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LANDIS-II&lt;/a&gt; model.&lt;/p&gt;
+&lt;p&gt;It allows users to dynamically change the parameters of the &lt;a href=&#34;http://www.landis-ii.org/extensions/biomass-harvest&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Biomass Harvest&lt;/a&gt; extension of LANDIS-II during a simulation, by running a command to call another program during the simulation. This command can edit the parameters files as wanted (for exemple, by calling a R or Python script). Magic Harvest then forces the harvest extension to re-load its parameters now that the files are modified.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/Klemet/LANDIS-II-Magic-Harvest&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more on the GitHub page of the project&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

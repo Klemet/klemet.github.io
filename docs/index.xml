@@ -5,7 +5,7 @@
     <link>https://klemet.github.io/</link>
       <atom:link href="https://klemet.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Clément Hardy</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2025 Clément Hardy</copyright><lastBuildDate>Fri, 27 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Clément Hardy</copyright><lastBuildDate>Fri, 27 Jun 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://klemet.github.io/media/icon_hu93a42bfcf8f1c81b76f58cb79681382c_22880_512x512_fill_lanczos_center_3.png</url>
       <title>Clément Hardy</title>
@@ -819,6 +819,30 @@
     </item>
     
     <item>
+      <title>Connectivity Analysis scripts and tools</title>
+      <link>https://klemet.github.io/project/connectivity-analysis-scripts-and-tools/</link>
+      <pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://klemet.github.io/project/connectivity-analysis-scripts-and-tools/</guid>
+      <description>&lt;h2 id=&#34;-description&#34;&gt;📑 Description&lt;/h2&gt;
+&lt;p&gt;A set of Python and R scripts to help you do a 4 stages connectivity analysis for terrestrial non-flying species in a Landscape. All scripts are heavily commented to indicate what to do and what&amp;rsquo;s happenning.&lt;/p&gt;
+&lt;p&gt;All of the analysis rely on a raster map that indicates the resistance cost of deplacement for the given species; in the current script, this map is generated with the methodology of &lt;a href=&#34;https://dx.plos.org/10.1371/journal.pone.0281980&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pither et al. 2023&lt;/a&gt; for Canadian terrestrial non-flying species. However, you can generate your own resistance map with a different method, and use it in the other scripts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/Klemet/ConnectivityAnalysis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more on the GitHub page of the project&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MHS-CBAU (Magic Harvest Scripting - Canadian Business As Usual)</title>
+      <link>https://klemet.github.io/project/mhs-cbau/</link>
+      <pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://klemet.github.io/project/mhs-cbau/</guid>
+      <description>&lt;h2 id=&#34;-description&#34;&gt;📑 Description&lt;/h2&gt;
+&lt;p&gt;MHS-CBAU is a an approach to simulate a Business-As-Usual forest management in Canadian lanscapes that are simulated with the &lt;a href=&#34;https://www.landis-ii.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LANDIS-II&lt;/a&gt; model and its &lt;a href=&#34;https://github.com/Klemet/LANDIS-II-Magic-Harvest&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Magic Harvest&lt;/a&gt; extension. &lt;strong&gt;In essence, it is made to simulate harvesting in LANDIS-II simulations in Canadian landscapes&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;MHS-CBAU works through a specific Python script (available in this repository) that is called by Magic Harvest during a LANDIS-II simulation. The Python script will make all forest management decisions, and then pass them to the &lt;a href=&#34;https://github.com/LANDIS-II-Foundation/Extension-Biomass-Harvest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Biomass Harvest&lt;/a&gt; extension of LANDIS-II which will execute the harvesting. To learn more about this method of using Magic Harvest and Biomass Harvest in tandem, please see &lt;a href=&#34;https://klemet.github.io/Workshop-MagicHarvest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this workshop&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/Klemet/MHS-CBAU&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more on the GitHub page of the project&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>The Forest Roads Simulation module for LANDIS-II</title>
       <link>https://klemet.github.io/project/frs_module_landis/</link>
       <pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
@@ -827,6 +851,18 @@
 &lt;p&gt;The FRS (Forest Roads Simulation) module is an extension for the &lt;a href=&#34;http://www.landis-ii.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LANDIS-II&lt;/a&gt; model.&lt;/p&gt;
 &lt;p&gt;It allows any user to dynamically simulate the evolution of the forest road network in the simulated landscape of LANDIS-II. It does so by creating roads to cells that are harvested by a harvest module (such as &lt;a href=&#34;http://www.landis-ii.org/extensions/base-harvest&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Base Harvest&lt;/a&gt; or &lt;a href=&#34;http://www.landis-ii.org/extensions/biomass-harvest&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Biomass Harvest&lt;/a&gt;), while reducing the costs of construction of roads as much as possible.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/Klemet/LANDIS-II-Forest-Roads-Simulation-module&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more on the GitHub page of the project&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Magic Harvest extension for LANDIS-II</title>
+      <link>https://klemet.github.io/project/magic-harvest/</link>
+      <pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://klemet.github.io/project/magic-harvest/</guid>
+      <description>&lt;h2 id=&#34;-description&#34;&gt;📑 Description&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Magic Harvest&lt;/strong&gt; is an extension for the &lt;a href=&#34;http://www.landis-ii.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LANDIS-II&lt;/a&gt; model.&lt;/p&gt;
+&lt;p&gt;It allows users to dynamically change the parameters of the &lt;a href=&#34;http://www.landis-ii.org/extensions/biomass-harvest&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Biomass Harvest&lt;/a&gt; extension of LANDIS-II during a simulation, by running a command to call another program during the simulation. This command can edit the parameters files as wanted (for exemple, by calling a R or Python script). Magic Harvest then forces the harvest extension to re-load its parameters now that the files are modified.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/Klemet/LANDIS-II-Magic-Harvest&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more on the GitHub page of the project&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     

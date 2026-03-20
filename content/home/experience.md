@@ -23,6 +23,22 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
 
+  - title: Independant Researcher
+    company: Cervus consultation
+    company_logo: cervusConsultation
+    location: Paris, France
+    date_start: '2026-03-09'
+    description: Working as an independant researcher on several research projects, including [DIVERSE](https://diverseproject.uqo.ca/).
+
+  - title: Post Doctoral Fellow
+    company: Université du Québec en Outaouais (UQO)
+    company_url: 'https://uqo.ca/'
+    company_logo: uqo
+    location: Montréal, Québec
+    date_start: '2024-04-30'
+    date_end: '2026-03-06'
+    description: Participating to the [DIVERSE project](https://diverseproject.uqo.ca/) as a Highly Qualified Personel managing LANDIS-II calibration and simulation.
+
   - title: PhD student
     company: Université du Québec à Montréal (UQAM)
     company_url: 'https://uqam.ca/'
