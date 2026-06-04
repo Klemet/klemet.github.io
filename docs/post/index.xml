@@ -5,12 +5,141 @@
     <link>https://klemet.github.io/post/</link>
       <atom:link href="https://klemet.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Clément Hardy</copyright><lastBuildDate>Sat, 10 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Clément Hardy</copyright><lastBuildDate>Thu, 04 Jun 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://klemet.github.io/media/icon_hu93a42bfcf8f1c81b76f58cb79681382c_22880_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://klemet.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Using Python properly for your research</title>
+      <link>https://klemet.github.io/post/using_python_properly/</link>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://klemet.github.io/post/using_python_properly/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;This article was not written using AI. It&amp;rsquo;s a text I wrote to help other students in my lab learn to use Python, as most people in ecology are rather used to R.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Python is a wonderful programming language : it&amp;rsquo;s fast, it&amp;rsquo;s quite easy to read and write, it has a lot of awesome packages for scientific purposes, and it&amp;rsquo;s a very mature language with a lot of users. &lt;a href=&#34;https://youtu.be/ZTPrbAKmcdo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;In fact, it has consistently ranked as the most popular programming language in the world since 2019, and has only increased its advance from other languages since then&lt;/a&gt;. It is now used for GIS, AI models training and usage, mathematics, software, statistics, and many other things. Python also has a great system of interactive notebooks (like R Markdown) called “&lt;a href=&#34;https://jupyter.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jupyter Notebooks&lt;/a&gt;” which is really powerful and has a ton of features; these notebooks are great to document your research as you do things. I use them a lot in my work.&lt;/p&gt;
+&lt;p&gt;Additionally, like R, Python is an interpreted language : it can be used in a terminal. You send lines, and the terminal responds, like R. But you can also do scripts or entire programs with it.&lt;/p&gt;
+&lt;h2 id=&#34;why-do-i-need-to-be-careful-about-how-i-install-and-use-python-on-my-computer-&#34;&gt;Why do I need to be careful about how I install and use Python on my computer ?&lt;/h2&gt;
+&lt;p&gt;However, Python differs from R in how it manages its &amp;ldquo;packages&amp;rdquo; that can be installed to add new functions, like in R. R was purpose-built for statistics, while Python is a general-purpose language with many uses, which causes complexity. One of the issues is that package management in python is more complex, with packages often requiring other packages of a specific version as dependencies (e.g. package A requires package B with version 2.1 to function). These version requirements can easily lead to &amp;ldquo;conflicts&amp;rdquo; between packages, causing errors and other problems. In addition, while R has a single package manager (you use it when you use install.package in R), Python has several package managers that were developed through time (particularly &lt;code&gt;pip&lt;/code&gt; - the default manager - and &lt;code&gt;conda&lt;/code&gt;, a more complex manager which can deal with dependencies other than in the Python language).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What that means in practice is that you can easily fall into one of three problems when using Python on your computer without knowing what you&amp;rsquo;re doing :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;🐍❓🐍 Ending up with several Python installations on your computer (e.g. one from the regular installer at python.org; Anaconda or Miniconda; etc.) and not knowing how to access the one you want (because calling the command &amp;ldquo;python&amp;rdquo; in a terminal will use one of your Python installation based on several factors, including the PATH variables you have).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;📦📦📦 Installing too many packages inside one installation or one environment (the most common beginner mistake, I did it myself !), resulting in a &amp;ldquo;bloated&amp;rdquo; environment in which adding new packages is very slow and complex, and where conflicts are more frequent.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;📦⚡📦 Installing packages in an environment with different package managers, which often “breaks” the environment by creating conflicts between packages.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-solution--learning-to-use-a-single-package-manager-and-virtual-environments&#34;&gt;The solution : learning to use a single package manager and virtual environments&lt;/h2&gt;
+&lt;p&gt;Luckily, there are 3 easy solutions to these problem which we can take care together at once by using the right environment and package manager :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Try to have one Python installation on your computer that can easily create virtual environments (I recommend the Miniconda Python distribution for this)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Use only one package manager to install packages in new environments (I recommend conda or mamba, which can be used in Miniconda)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create a new virtual environment for each of your projects (which is very easy to do with Miniconda/mamba).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In short : I recommend you install and use either Anaconda or Miniconda. Both are Python &amp;ldquo;distributions&amp;rdquo;, meaning they install Python on your computer along with a package manager and a system to create new virtual environments easily. They also can integrate your python installation easily with the rest of your computer. Anaconda and Miniconda are both made by the same company, and are free to download and use. The difference between the two is that Anaconda comes with a lot of scientific python packages pre-installed, while miniconda is a much smaller installation with almost no packages pre-installed (requiring you to install the packages you need after installing it). Anaconda takes a lot of space, and contains a lot of packages you will probably never use; as such, I recommend you go with miniconda. Plus, miniconda is a very cute name 🐍🌸.&lt;/p&gt;
+&lt;p&gt;So here, I&amp;rsquo;m going to show you 1. How to install miniconda on your computer, 2. how to easily create virtual environments for your projects, and 3. how to install Spyder (the equivalent of R studio for Python) in a virtual environment and connect it to other virtual environments (it&amp;rsquo;s done in one click).&lt;/p&gt;
+&lt;h2 id=&#34;installing-python-on-your-computer&#34;&gt;Installing Python on your computer&lt;/h2&gt;
+&lt;p&gt;Before we start : &lt;strong&gt;if you can, remove any existing Python installation on your computer if you don&amp;rsquo;t have a good reason to use it anymore&lt;/strong&gt;. This should make things easier in the long run. With miniconda, you should be able to do everything you need in Python - for science or for programming. To find existing installations, run &lt;code&gt;where python&lt;/code&gt; in a command prompt on Windows, or its equivalent in macOS or Linux. Then, try to find if it can be uninstalled. Warning : modern versions of Windows often come by default with a python.exe located in &lt;code&gt;AppData\Local\Microsoft\WindowsApps&lt;/code&gt;. You can just leave this one alone.&lt;/p&gt;
+&lt;p&gt;Then, install miniconda : head to &lt;a href=&#34;https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe&lt;/a&gt; . Run the installer. I recommend you select all of the default parameters during the installation (for example, leave “add Anaconda to PATH” disabled).&lt;/p&gt;
+&lt;p&gt;Once installed, run the command &lt;code&gt;conda init&lt;/code&gt; in a terminal if you are in Linux or macOS, or in a &amp;ldquo;Anaconda Powershell&amp;rdquo; or “Anaconda command prompt” on Windows (for which you should have a new shortcut in your start menu after installing miniconda; both powershell or command prompt are OK to use, as the result will be the same).&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;💡 Why does Windows has a “Anaconda Powershell” or “Anaconda command prompt” ? What does that mean ?&lt;/strong&gt;&lt;/br&gt;&lt;/br&gt;
+This is because of the ways that the initialization of shells/terminals work on these different OS. On Linux and MacOS, Miniconda can simply modify the shell configuration files to make the conda commands available. On Windows, for several reasons, it doesn’t do that out of the box. That’s why installing Miniconda also creates these “Anaconda” terminals so that you can use them to run conda commands. conda init can then change some files on windows so that you don’t have to keep using these special Anaconda Powershell/Anaconda command prompt, and can instead run conda commands from any powershell or command prompts.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;💡 What’s the difference between the powershell and the command prompt on Windows ?&lt;/strong&gt;&lt;/br&gt;&lt;/br&gt;
+These are two different “shells”, meaning interpreters of commands to interact with your system that you can interact with in a terminal. Powershell is more recent and modern; the command prompt is older. They don’t use the same syntax for the commands. I recommend you use Powershell if you don’t know which one to use.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Once this is done, you should be able to call &lt;code&gt;conda&lt;/code&gt; commands from any terminal on your computer. This will allow us to easily create, activate and use virtual environments, which we will now take a look at.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;⚠ &lt;strong&gt;&lt;code&gt;conda init&lt;/code&gt; might not work properly if you have accents or special characters in your Windows profile name&lt;/strong&gt;. In general, accents in a windows profile name cause a lot of problems. If that’s the case, take a look at the result of the conda init command to see where it has created the .ps1 file, and put it where it should be (with the right name for your profile).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;creating-virtual-environments-with-ease&#34;&gt;Creating virtual environments with ease&lt;/h2&gt;
+&lt;p&gt;Miniconda (and Anaconda) function with what is called “environments”; each environment is a separate and isolated Python installation that contains specific packages. These are great to avoid the problems we have highlighted above (package conflicts, etc.), but also to keep your research tidy and replicable !&lt;/p&gt;
+&lt;p&gt;When Miniconda was installed, it created a “base” environment. This environment will always exist, and is the one that is loaded by default. If you start using &lt;code&gt;conda&lt;/code&gt; commands in a terminal, or if you use the &lt;code&gt;python&lt;/code&gt; command to run a Python console or a script, you’re most likely going to run it in the base environment.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The classic rooky mistake is to use the base environment for everything&lt;/strong&gt;. Many people simply keep installing every package they need for everything they want to do with Python (running scripts, etc.) in the base environment. But if you do this, you quickly reach a point where adding new packages can literally take hours (as the conda package manager tries to solve the dependencies between each of your packages, which increasingly become very complex as you add more and more packages), and often result in conflicts. When this happens, you end up losing a lot of time and having to reset your base environment in some way.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The rule is : don’t use your base environment for anything other than updating &lt;code&gt;conda&lt;/code&gt; or for creating and loading other environments&lt;/strong&gt;. This is the best and most recommended use for it. Instead, we are going to create new virtual environments for each of your projects, or for each of your needs.&lt;/p&gt;
+&lt;p&gt;To make a metaphor : imagine that each virtual environment you will create is like a room in a house. Each of them has different furniture according to their goal (living room, bedroom, bathroom, etc.) The base environment should be the corridor to enter the different rooms in the house. It would be a huge mistake to try and cram all of the different furniture of your house in this corridor, or even in a single room ! So we will keep the rooms separated.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;💡 But if I create a lot of virtual environments for each of my projects, isn’t it going to use a lot of space on my computer ?&lt;/strong&gt;&lt;/br&gt;&lt;/br&gt;
+No, it won’t ! Conda is a smart environment and package manager : it avoids downloading a package twice between two environments that will use it. So when you create a new environment, you don’t create another copy of packages you are using in other environments, and you don’t use more space compared to downloading all of your packages in a single environment.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Now, to create a new conda virtual environment : use the command &lt;code&gt;conda create -n NAME -c conda-forge&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;In this command, &lt;code&gt;NAME&lt;/code&gt; the name of your environment (could be named after a project, or a thing you do with it : e.g. &amp;ldquo;analysisProject1&amp;rdquo;, etc.). Meanwhile, &lt;code&gt;-c conda-forge&lt;/code&gt; is used so that when we will try to add packages to this environment, we will use the &lt;code&gt;conda-forge&lt;/code&gt; channel, which is a huge repository with many packages for Python (and one of the most used). This is where conda will look for packages when we will ask it to install packages in our environment. Other channels can be added; but &lt;code&gt;conda-forge&lt;/code&gt; should contain everything you need.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 When you run conda create for the first time, it will ask you to accept some terms and conditions for the repositories of anaconda. As an individual researcher or students, you should be OK accepting them. Basically, the company behind Anaconda hosts and maintains the repositories like &lt;code&gt;conda-forge&lt;/code&gt;, and demands money to for-profit organisations of more than 200 persons - or the IPs adresses can be blocked. See &lt;a href=&#34;https://www.reddit.com/r/bioinformatics/comments/1emekxo/anaconda_licensing_terms_and_reproducible_science/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this reddit thread&lt;/a&gt; for an example, or &lt;a href=&#34;https://www.anaconda.com/blog/update-on-anacondas-terms-of-service-for-academia-and-research&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; for the details. You can also look for alternative package managers like &lt;a href=&#34;https://github.com/conda-forge/miniforge&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Miniforge&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;And that’s it ! Your virtual environment is now created. It will be empty, meaning that it will have no packages. To interact with this new environment, we have to “activate” it in the terminal you are using to run commands (e.g. Powershell). Once an environment is “activated”, every conda or python command you will use in the terminal will be done inside this environment. As such, conda commands will install or remove packages in this virtual environment; while python commands will run python consoles or scripts inside the environment. The terminals or scripts will have access to all of the packages installed in this virtual environment. To activate the environment, use conda activate NAME. You will see the name of the environment from now on at the beginning of your next line in the terminal.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;⚠ Still having accents or special characters in your Windows profile name ? That’s again going to cause issues when conda will load the environment. To solve this, run the command &lt;code&gt;conda env config vars set PYTHONUTF8=1&lt;/code&gt; .This will make sure that &lt;code&gt;conda&lt;/code&gt; and &lt;code&gt;python&lt;/code&gt; reads accented characters properly from now on.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;To add packages in the environment, simply use &lt;code&gt;conda install&lt;/code&gt; followed by the name of each of the packages you want. For example, if we want to install &lt;code&gt;numpy&lt;/code&gt;, &lt;code&gt;pandas&lt;/code&gt;, &lt;code&gt;rasterio&lt;/code&gt; and &lt;code&gt;tqdm&lt;/code&gt;, we will run : &lt;code&gt;conda install numpy pandas rasterio tqdm&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;finishing-up--installing-spyder-and-using-environments-from-now-on&#34;&gt;Finishing up : installing Spyder and using environments from now on.&lt;/h2&gt;
+&lt;p&gt;To finish setting up your Python installation, we’re going to install Spyder. &lt;strong&gt;Spyder is the equivalent of Rstudio for Python&lt;/strong&gt; : it’s an Integrated development environment (IDE) made to write code or scripts in Python easily. The interface is very similar to R studio : you have a place where you write code, a console in which you can run part of the code and see what happens, and other panels showing the variables present in your current python console, etc. It’s a must have for a Python user in science !&lt;/p&gt;
+&lt;p&gt;There are many ways to install Spyder on your computer. Here, we’re going to do it from miniconda, because Spyder is a python package (which, when it is installed, will appear as a program on your computer). So, we are going to create a virtual environment just to install Spyder in it (like we’re giving it a dedicated room in a house), and then launch it through its program shortcut.&lt;/p&gt;
+&lt;p&gt;So we open a terminal (e.g., a powershell); we write &lt;code&gt;conda create -n spyderEnv -c conda-forge&lt;/code&gt; to create the environment. Then, we write &lt;code&gt;conda activate spyderEnv&lt;/code&gt; to load the environment. And then, we write &lt;code&gt;conda install spyder&lt;/code&gt; to install Spyder in the environment. Easy ! After it’s installed, you should find a shortcut to launch spyder as a program in the menu of programs of your computer (e.g. start menu of your computer). It should say &lt;code&gt;Spyder (spyderEnv)&lt;/code&gt;, telling you at first glance the environment in which Spyder is installed.&lt;/p&gt;
+&lt;p&gt;From now on, you can easily create additional environments with &lt;code&gt;conda create&lt;/code&gt;, and then use these environments either in a terminal (most likely to run Python scripts) or in Spyder. We’re going to do it now, as we’re going to need an environment with the &lt;code&gt;pandas&lt;/code&gt; package to run the a script. Pandas is a package that deals with dataframes, which can be read from .csv files.&lt;/p&gt;
+&lt;p&gt;So first, we create the environment by using a terminal : &lt;code&gt;conda create -n script1Execution -c conda-forge&lt;/code&gt;. I’ve used the name script1Execution, but feel free to name it however you want. It should be a name that is useful to you.&lt;/p&gt;
+&lt;p&gt;Then, we load the environment in the terminal : &lt;code&gt;conda activate script1Execution&lt;/code&gt;. Finally, we install the required package : &lt;code&gt;conda install pandas&lt;/code&gt;. Before we finish, we will also install the package &lt;code&gt;spyder-kernels&lt;/code&gt; so that the environment can be used in Spyder (&lt;code&gt;conda install spyder-kernels&lt;/code&gt;).  Now, we’re done !&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 Spyder is such a useful tool that as a practice, I recommend that you always install &lt;code&gt;spyder-kernels&lt;/code&gt; in a new environment to be sure that the environment can be used in Spyder (as we will see right after). If you forget, don’t worry ! Spyder will still detect the environment, but will tell you that you still need to install &lt;code&gt;spyder-kernel&lt;/code&gt; in it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;So with all of this, here is what your miniconda installation should look like in terms of environments :&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./pythonEnvs1.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;And here we are ! The environment is now ready to go. We will see how to properly run the script in the next section. In the meanwhile, you now have a unique, stable installation of Python on your computer that you can use from any terminal, and in which you can easily create and use separate virtual environments for your different projects. You can also update it easily by updating the conda package and environment manager (by running conda upgrade conda in the base environment), or other packages if you need it.&lt;/p&gt;
+&lt;p&gt;You can also :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;List existing environments with &lt;code&gt;conda env list&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Export the exact composition of an environment to another computer (or to share with a colleague or a reviewer) with a &lt;code&gt;.yml&lt;/code&gt; file with &lt;code&gt;conda env export --from-history -n ENV_NAME &amp;gt; environment.yml&lt;/code&gt; (just replace &lt;code&gt;ENV_NAME&lt;/code&gt; with the name of your environment).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Import an environment from a &lt;code&gt;.yml&lt;/code&gt; file in &lt;code&gt;conda env create -f environment.yml -n ENV_NAME&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Delete an environment with &lt;code&gt;conda remove -n ENV_NAME --all -y&lt;/code&gt; (just be sure to deactivate the environment first if you have activated it in the terminal you’re in; you can use &lt;code&gt;conda deactivate&lt;/code&gt; to do so).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So in the future, you will be able to create other environments for your other projects of other needs. &lt;strong&gt;Having many environments is not a problem at all with miniconda&lt;/strong&gt;. And if you ever forget which environment you have created in the past for a given project, you can still re-create it easily.&lt;/p&gt;
+&lt;p&gt;On that note : don’t hesitate to save the composition of your environment with &lt;code&gt;conda env export --from-history -n ENV_NAME &amp;gt; environment.yml&lt;/code&gt; with the files of a given project you have worked with, when you have finished it (maybe before deleting the environment). &lt;strong&gt;This will allow you to re-create the environment exactly how it was, with the exact same version for all packages&lt;/strong&gt;. As packages change with updates and their functions change, this can ensure that your Python script will run without issues, even in the future.&lt;/p&gt;
+&lt;p&gt;Have fun using Python ! 🐍&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>In the shadow of Jevons</title>

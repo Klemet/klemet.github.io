@@ -1,0 +1,1438 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Clément Hardy, PhD" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Python is a great programming langage for your research, but here are a few tips to use it correctly." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://klemet.github.io/post/using_python_properly/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#4caf50" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.fb1535f6d15c2709cd9873b6f909b913.css" />
+
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RJL86K5TDX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-RJL86K5TDX', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu93a42bfcf8f1c81b76f58cb79681382c_22880_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu93a42bfcf8f1c81b76f58cb79681382c_22880_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://klemet.github.io/post/using_python_properly/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="Clément Hardy" />
+  <meta property="og:url" content="https://klemet.github.io/post/using_python_properly/" />
+  <meta property="og:title" content="Using Python properly for your research | Clément Hardy" />
+  <meta property="og:description" content="Python is a great programming langage for your research, but here are a few tips to use it correctly." /><meta property="og:image" content="https://klemet.github.io/post/using_python_properly/featured.jpg" />
+    <meta property="twitter:image" content="https://klemet.github.io/post/using_python_properly/featured.jpg" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2026-06-04T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2026-06-04T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://klemet.github.io/post/using_python_properly/"
+  },
+  "headline": "Using Python properly for your research",
+  
+  "image": [
+    "https://klemet.github.io/post/using_python_properly/featured.jpg"
+  ],
+  
+  "datePublished": "2026-06-04T00:00:00Z",
+  "dateModified": "2026-06-04T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Clément Hardy, PhD"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Clément Hardy",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://klemet.github.io/media/icon_hu93a42bfcf8f1c81b76f58cb79681382c_22880_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Python is a great programming langage for your research, but here are a few tips to use it correctly."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Using Python properly for your research | Clément Hardy</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="b8fb5bacf57b3f1a8df1746e8664a4d0" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.7e85d6cfe81caeb57cc49452f9b55e03.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Clément Hardy</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Clément Hardy</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Tools</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Communications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>Using Python properly for your research</h1>
+
+  
+  <p class="page-subtitle">Python is a great programming langage for your research, but here are a few tips to use it correctly.</p>
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      Clément Hardy, PhD</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jun 4, 2026
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    15 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header container featured-image-wrapper mt-4 mb-4" style="max-width: 1200px; max-height: 800px;">
+  <div style="position: relative">
+    <img src="/post/using_python_properly/featured_hu5459c0360c2b0cb7a147d2df0eb350ca_1934153_1200x2500_fit_q75_h2_lanczos.webp" width="1200" height="800" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <blockquote>
+<p><em>This article was not written using AI. It&rsquo;s a text I wrote to help other students in my lab learn to use Python, as most people in ecology are rather used to R.</em></p>
+</blockquote>
+<p>Python is a wonderful programming language : it&rsquo;s fast, it&rsquo;s quite easy to read and write, it has a lot of awesome packages for scientific purposes, and it&rsquo;s a very mature language with a lot of users. <a href="https://youtu.be/ZTPrbAKmcdo" target="_blank" rel="noopener">In fact, it has consistently ranked as the most popular programming language in the world since 2019, and has only increased its advance from other languages since then</a>. It is now used for GIS, AI models training and usage, mathematics, software, statistics, and many other things. Python also has a great system of interactive notebooks (like R Markdown) called “<a href="https://jupyter.org/" target="_blank" rel="noopener">Jupyter Notebooks</a>” which is really powerful and has a ton of features; these notebooks are great to document your research as you do things. I use them a lot in my work.</p>
+<p>Additionally, like R, Python is an interpreted language : it can be used in a terminal. You send lines, and the terminal responds, like R. But you can also do scripts or entire programs with it.</p>
+<h2 id="why-do-i-need-to-be-careful-about-how-i-install-and-use-python-on-my-computer-">Why do I need to be careful about how I install and use Python on my computer ?</h2>
+<p>However, Python differs from R in how it manages its &ldquo;packages&rdquo; that can be installed to add new functions, like in R. R was purpose-built for statistics, while Python is a general-purpose language with many uses, which causes complexity. One of the issues is that package management in python is more complex, with packages often requiring other packages of a specific version as dependencies (e.g. package A requires package B with version 2.1 to function). These version requirements can easily lead to &ldquo;conflicts&rdquo; between packages, causing errors and other problems. In addition, while R has a single package manager (you use it when you use install.package in R), Python has several package managers that were developed through time (particularly <code>pip</code> - the default manager - and <code>conda</code>, a more complex manager which can deal with dependencies other than in the Python language).</p>
+<p><strong>What that means in practice is that you can easily fall into one of three problems when using Python on your computer without knowing what you&rsquo;re doing :</strong></p>
+<ul>
+<li>
+<p>🐍❓🐍 Ending up with several Python installations on your computer (e.g. one from the regular installer at python.org; Anaconda or Miniconda; etc.) and not knowing how to access the one you want (because calling the command &ldquo;python&rdquo; in a terminal will use one of your Python installation based on several factors, including the PATH variables you have).</p>
+</li>
+<li>
+<p>📦📦📦 Installing too many packages inside one installation or one environment (the most common beginner mistake, I did it myself !), resulting in a &ldquo;bloated&rdquo; environment in which adding new packages is very slow and complex, and where conflicts are more frequent.</p>
+</li>
+<li>
+<p>📦⚡📦 Installing packages in an environment with different package managers, which often “breaks” the environment by creating conflicts between packages.</p>
+</li>
+</ul>
+<h2 id="the-solution--learning-to-use-a-single-package-manager-and-virtual-environments">The solution : learning to use a single package manager and virtual environments</h2>
+<p>Luckily, there are 3 easy solutions to these problem which we can take care together at once by using the right environment and package manager :</p>
+<ol>
+<li>
+<p>Try to have one Python installation on your computer that can easily create virtual environments (I recommend the Miniconda Python distribution for this)</p>
+</li>
+<li>
+<p>Use only one package manager to install packages in new environments (I recommend conda or mamba, which can be used in Miniconda)</p>
+</li>
+<li>
+<p>Create a new virtual environment for each of your projects (which is very easy to do with Miniconda/mamba).</p>
+</li>
+</ol>
+<p>In short : I recommend you install and use either Anaconda or Miniconda. Both are Python &ldquo;distributions&rdquo;, meaning they install Python on your computer along with a package manager and a system to create new virtual environments easily. They also can integrate your python installation easily with the rest of your computer. Anaconda and Miniconda are both made by the same company, and are free to download and use. The difference between the two is that Anaconda comes with a lot of scientific python packages pre-installed, while miniconda is a much smaller installation with almost no packages pre-installed (requiring you to install the packages you need after installing it). Anaconda takes a lot of space, and contains a lot of packages you will probably never use; as such, I recommend you go with miniconda. Plus, miniconda is a very cute name 🐍🌸.</p>
+<p>So here, I&rsquo;m going to show you 1. How to install miniconda on your computer, 2. how to easily create virtual environments for your projects, and 3. how to install Spyder (the equivalent of R studio for Python) in a virtual environment and connect it to other virtual environments (it&rsquo;s done in one click).</p>
+<h2 id="installing-python-on-your-computer">Installing Python on your computer</h2>
+<p>Before we start : <strong>if you can, remove any existing Python installation on your computer if you don&rsquo;t have a good reason to use it anymore</strong>. This should make things easier in the long run. With miniconda, you should be able to do everything you need in Python - for science or for programming. To find existing installations, run <code>where python</code> in a command prompt on Windows, or its equivalent in macOS or Linux. Then, try to find if it can be uninstalled. Warning : modern versions of Windows often come by default with a python.exe located in <code>AppData\Local\Microsoft\WindowsApps</code>. You can just leave this one alone.</p>
+<p>Then, install miniconda : head to <a href="https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe" target="_blank" rel="noopener">https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe</a> . Run the installer. I recommend you select all of the default parameters during the installation (for example, leave “add Anaconda to PATH” disabled).</p>
+<p>Once installed, run the command <code>conda init</code> in a terminal if you are in Linux or macOS, or in a &ldquo;Anaconda Powershell&rdquo; or “Anaconda command prompt” on Windows (for which you should have a new shortcut in your start menu after installing miniconda; both powershell or command prompt are OK to use, as the result will be the same).</p>
+<blockquote>
+<p><strong>💡 Why does Windows has a “Anaconda Powershell” or “Anaconda command prompt” ? What does that mean ?</strong></br></br>
+This is because of the ways that the initialization of shells/terminals work on these different OS. On Linux and MacOS, Miniconda can simply modify the shell configuration files to make the conda commands available. On Windows, for several reasons, it doesn’t do that out of the box. That’s why installing Miniconda also creates these “Anaconda” terminals so that you can use them to run conda commands. conda init can then change some files on windows so that you don’t have to keep using these special Anaconda Powershell/Anaconda command prompt, and can instead run conda commands from any powershell or command prompts.</p>
+</blockquote>
+<blockquote>
+<p><strong>💡 What’s the difference between the powershell and the command prompt on Windows ?</strong></br></br>
+These are two different “shells”, meaning interpreters of commands to interact with your system that you can interact with in a terminal. Powershell is more recent and modern; the command prompt is older. They don’t use the same syntax for the commands. I recommend you use Powershell if you don’t know which one to use.</p>
+</blockquote>
+<p>Once this is done, you should be able to call <code>conda</code> commands from any terminal on your computer. This will allow us to easily create, activate and use virtual environments, which we will now take a look at.</p>
+<blockquote>
+<p>⚠ <strong><code>conda init</code> might not work properly if you have accents or special characters in your Windows profile name</strong>. In general, accents in a windows profile name cause a lot of problems. If that’s the case, take a look at the result of the conda init command to see where it has created the .ps1 file, and put it where it should be (with the right name for your profile).</p>
+</blockquote>
+<h2 id="creating-virtual-environments-with-ease">Creating virtual environments with ease</h2>
+<p>Miniconda (and Anaconda) function with what is called “environments”; each environment is a separate and isolated Python installation that contains specific packages. These are great to avoid the problems we have highlighted above (package conflicts, etc.), but also to keep your research tidy and replicable !</p>
+<p>When Miniconda was installed, it created a “base” environment. This environment will always exist, and is the one that is loaded by default. If you start using <code>conda</code> commands in a terminal, or if you use the <code>python</code> command to run a Python console or a script, you’re most likely going to run it in the base environment.</p>
+<p><strong>The classic rooky mistake is to use the base environment for everything</strong>. Many people simply keep installing every package they need for everything they want to do with Python (running scripts, etc.) in the base environment. But if you do this, you quickly reach a point where adding new packages can literally take hours (as the conda package manager tries to solve the dependencies between each of your packages, which increasingly become very complex as you add more and more packages), and often result in conflicts. When this happens, you end up losing a lot of time and having to reset your base environment in some way.</p>
+<p><strong>The rule is : don’t use your base environment for anything other than updating <code>conda</code> or for creating and loading other environments</strong>. This is the best and most recommended use for it. Instead, we are going to create new virtual environments for each of your projects, or for each of your needs.</p>
+<p>To make a metaphor : imagine that each virtual environment you will create is like a room in a house. Each of them has different furniture according to their goal (living room, bedroom, bathroom, etc.) The base environment should be the corridor to enter the different rooms in the house. It would be a huge mistake to try and cram all of the different furniture of your house in this corridor, or even in a single room ! So we will keep the rooms separated.</p>
+<blockquote>
+<p><strong>💡 But if I create a lot of virtual environments for each of my projects, isn’t it going to use a lot of space on my computer ?</strong></br></br>
+No, it won’t ! Conda is a smart environment and package manager : it avoids downloading a package twice between two environments that will use it. So when you create a new environment, you don’t create another copy of packages you are using in other environments, and you don’t use more space compared to downloading all of your packages in a single environment.</p>
+</blockquote>
+<p>Now, to create a new conda virtual environment : use the command <code>conda create -n NAME -c conda-forge</code>.</p>
+<p>In this command, <code>NAME</code> the name of your environment (could be named after a project, or a thing you do with it : e.g. &ldquo;analysisProject1&rdquo;, etc.). Meanwhile, <code>-c conda-forge</code> is used so that when we will try to add packages to this environment, we will use the <code>conda-forge</code> channel, which is a huge repository with many packages for Python (and one of the most used). This is where conda will look for packages when we will ask it to install packages in our environment. Other channels can be added; but <code>conda-forge</code> should contain everything you need.</p>
+<blockquote>
+<p>💡 When you run conda create for the first time, it will ask you to accept some terms and conditions for the repositories of anaconda. As an individual researcher or students, you should be OK accepting them. Basically, the company behind Anaconda hosts and maintains the repositories like <code>conda-forge</code>, and demands money to for-profit organisations of more than 200 persons - or the IPs adresses can be blocked. See <a href="https://www.reddit.com/r/bioinformatics/comments/1emekxo/anaconda_licensing_terms_and_reproducible_science/" target="_blank" rel="noopener">this reddit thread</a> for an example, or <a href="https://www.anaconda.com/blog/update-on-anacondas-terms-of-service-for-academia-and-research" target="_blank" rel="noopener">here</a> for the details. You can also look for alternative package managers like <a href="https://github.com/conda-forge/miniforge" target="_blank" rel="noopener">Miniforge</a>.</p>
+</blockquote>
+<p>And that’s it ! Your virtual environment is now created. It will be empty, meaning that it will have no packages. To interact with this new environment, we have to “activate” it in the terminal you are using to run commands (e.g. Powershell). Once an environment is “activated”, every conda or python command you will use in the terminal will be done inside this environment. As such, conda commands will install or remove packages in this virtual environment; while python commands will run python consoles or scripts inside the environment. The terminals or scripts will have access to all of the packages installed in this virtual environment. To activate the environment, use conda activate NAME. You will see the name of the environment from now on at the beginning of your next line in the terminal.</p>
+<blockquote>
+<p>⚠ Still having accents or special characters in your Windows profile name ? That’s again going to cause issues when conda will load the environment. To solve this, run the command <code>conda env config vars set PYTHONUTF8=1</code> .This will make sure that <code>conda</code> and <code>python</code> reads accented characters properly from now on.</p>
+</blockquote>
+<p>To add packages in the environment, simply use <code>conda install</code> followed by the name of each of the packages you want. For example, if we want to install <code>numpy</code>, <code>pandas</code>, <code>rasterio</code> and <code>tqdm</code>, we will run : <code>conda install numpy pandas rasterio tqdm</code>.</p>
+<h2 id="finishing-up--installing-spyder-and-using-environments-from-now-on">Finishing up : installing Spyder and using environments from now on.</h2>
+<p>To finish setting up your Python installation, we’re going to install Spyder. <strong>Spyder is the equivalent of Rstudio for Python</strong> : it’s an Integrated development environment (IDE) made to write code or scripts in Python easily. The interface is very similar to R studio : you have a place where you write code, a console in which you can run part of the code and see what happens, and other panels showing the variables present in your current python console, etc. It’s a must have for a Python user in science !</p>
+<p>There are many ways to install Spyder on your computer. Here, we’re going to do it from miniconda, because Spyder is a python package (which, when it is installed, will appear as a program on your computer). So, we are going to create a virtual environment just to install Spyder in it (like we’re giving it a dedicated room in a house), and then launch it through its program shortcut.</p>
+<p>So we open a terminal (e.g., a powershell); we write <code>conda create -n spyderEnv -c conda-forge</code> to create the environment. Then, we write <code>conda activate spyderEnv</code> to load the environment. And then, we write <code>conda install spyder</code> to install Spyder in the environment. Easy ! After it’s installed, you should find a shortcut to launch spyder as a program in the menu of programs of your computer (e.g. start menu of your computer). It should say <code>Spyder (spyderEnv)</code>, telling you at first glance the environment in which Spyder is installed.</p>
+<p>From now on, you can easily create additional environments with <code>conda create</code>, and then use these environments either in a terminal (most likely to run Python scripts) or in Spyder. We’re going to do it now, as we’re going to need an environment with the <code>pandas</code> package to run the a script. Pandas is a package that deals with dataframes, which can be read from .csv files.</p>
+<p>So first, we create the environment by using a terminal : <code>conda create -n script1Execution -c conda-forge</code>. I’ve used the name script1Execution, but feel free to name it however you want. It should be a name that is useful to you.</p>
+<p>Then, we load the environment in the terminal : <code>conda activate script1Execution</code>. Finally, we install the required package : <code>conda install pandas</code>. Before we finish, we will also install the package <code>spyder-kernels</code> so that the environment can be used in Spyder (<code>conda install spyder-kernels</code>).  Now, we’re done !</p>
+<blockquote>
+<p>💡 Spyder is such a useful tool that as a practice, I recommend that you always install <code>spyder-kernels</code> in a new environment to be sure that the environment can be used in Spyder (as we will see right after). If you forget, don’t worry ! Spyder will still detect the environment, but will tell you that you still need to install <code>spyder-kernel</code> in it.</p>
+</blockquote>
+<p>So with all of this, here is what your miniconda installation should look like in terms of environments :</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="./pythonEnvs1.png" alt="" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>And here we are ! The environment is now ready to go. We will see how to properly run the script in the next section. In the meanwhile, you now have a unique, stable installation of Python on your computer that you can use from any terminal, and in which you can easily create and use separate virtual environments for your different projects. You can also update it easily by updating the conda package and environment manager (by running conda upgrade conda in the base environment), or other packages if you need it.</p>
+<p>You can also :</p>
+<ul>
+<li>
+<p>List existing environments with <code>conda env list</code></p>
+</li>
+<li>
+<p>Export the exact composition of an environment to another computer (or to share with a colleague or a reviewer) with a <code>.yml</code> file with <code>conda env export --from-history -n ENV_NAME &gt; environment.yml</code> (just replace <code>ENV_NAME</code> with the name of your environment).</p>
+</li>
+<li>
+<p>Import an environment from a <code>.yml</code> file in <code>conda env create -f environment.yml -n ENV_NAME</code>.</p>
+</li>
+<li>
+<p>Delete an environment with <code>conda remove -n ENV_NAME --all -y</code> (just be sure to deactivate the environment first if you have activated it in the terminal you’re in; you can use <code>conda deactivate</code> to do so).</p>
+</li>
+</ul>
+<p>So in the future, you will be able to create other environments for your other projects of other needs. <strong>Having many environments is not a problem at all with miniconda</strong>. And if you ever forget which environment you have created in the past for a given project, you can still re-create it easily.</p>
+<p>On that note : don’t hesitate to save the composition of your environment with <code>conda env export --from-history -n ENV_NAME &gt; environment.yml</code> with the files of a given project you have worked with, when you have finished it (maybe before deleting the environment). <strong>This will allow you to re-create the environment exactly how it was, with the exact same version for all packages</strong>. As packages change with updates and their functions change, this can ensure that your Python script will run without issues, even in the future.</p>
+<p>Have fun using Python ! 🐍</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/python/">python</a>
+  
+  <a class="badge badge-light" href="/tag/programming/">programming</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://klemet.github.io/post/using_python_properly/&amp;text=Using%20Python%20properly%20for%20your%20research" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://klemet.github.io/post/using_python_properly/&amp;t=Using%20Python%20properly%20for%20your%20research" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Using%20Python%20properly%20for%20your%20research&amp;body=https://klemet.github.io/post/using_python_properly/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://klemet.github.io/post/using_python_properly/&amp;title=Using%20Python%20properly%20for%20your%20research" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Using%20Python%20properly%20for%20your%20research%20https://klemet.github.io/post/using_python_properly/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://klemet.github.io/post/using_python_properly/&amp;title=Using%20Python%20properly%20for%20your%20research" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://klemet.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu76b9e87e671b45eb7edba9f04e688298_141278_270x270_fill_q75_lanczos_center.jpg" alt="Clément Hardy, PhD"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://klemet.github.io/">Clément Hardy, PhD</a></h5>
+      <h6 class="card-subtitle">Postdoctoral fellow in forest ecology</h6>
+      <p class="card-text">Clément is a postdoctoral fellow working on forest ecology, forest management, spatially explicit modelling and functional connectivity. He&rsquo;s also interested in history, ethics, productivity tools, video-games and photography.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:clem.hardy@pm.me" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/Klemet" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/clement-hardy-ecology/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://flickr.com/photos/135911843@N03/" target="_blank" rel="noopener">
+        <i class="fab fa-flickr"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    © 2026 Clément Hardy
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.5a3a4e7cbc7b4e121b2d29312cf8ad59.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.6b73888494485d3b0874ca2ec83f614f.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.f4140b8ec5a725451afc89ff5f0c8764.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>
