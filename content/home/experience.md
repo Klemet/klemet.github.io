@@ -23,12 +23,12 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
 
-  - title: Independant Researcher
+  - title: Research consultant
     company: Cervus consultation
     company_logo: cervusConsultation
     location: Paris, France
     date_start: '2026-03-09'
-    description: Working as an independant researcher on several research projects, including [DIVERSE](https://diverseproject.uqo.ca/).
+    description: Working as a research consultant for my own account on several research projects, including [DIVERSE](https://diverseproject.uqo.ca/).
 
   - title: Post Doctoral Fellow
     company: Université du Québec en Outaouais (UQO)
