@@ -10,8 +10,7 @@ role: Research consultant in forest ecology
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Université du Québec en Outaouais
-  url: https://uqo.ca/
+- name: Cervus Consultation
 
 # Short bio (displayed in user profile at end of posts)
 bio: Clément is a research consultant working on forest ecology, forest management, spatially explicit modelling and functional connectivity. He's also interested in history, ethics, productivity tools, video-games and photography.
